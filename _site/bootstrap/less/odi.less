@@ -1,0 +1,96 @@
+//
+// ODI Styling
+// --------------------------------------------------
+
+#header, #footer {
+  background-color: white;
+}
+
+#header {
+  padding-top: 24px;
+
+  img {
+    vertical-align: top;
+  }
+
+  .branding {
+    padding-bottom: 15px;
+  }
+
+  #name-and-slogan {
+    display: inline-block;
+    padding-left: 30px;
+
+    #site-name {
+      margin: 0;
+      line-height: 0.9em;
+    }
+
+    #site-slogan {
+      bottom: 0;
+      color: #3EB4E4;
+      font-size: 18px;
+      font-weight: normal;
+      left: -2px;
+      letter-spacing: 2px;
+      line-height: 1em;
+      margin: 0 0 0 2px;
+    }
+  }
+
+  #mainnav {
+    margin-bottom: 0;
+
+    .navbar-inner {
+      border-radius: 0;
+    }
+  }
+}
+
+#footer {
+  font-size: 0.88em;
+
+  a {
+    color: #666666;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none outside none;
+    margin: 10px 0;
+
+    li {
+      display: inline;
+      margin: 0 10px;
+    }
+  }
+
+  p {
+    margin: 10px;
+  }
+}
+
+section {
+  background-color: white;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.page-header {
+
+  .bookmark {
+    position: absolute;
+    margin: -3px 0 0 -30px;
+    padding: 3px;
+    min-height: 53px;
+    background-color: @blue;
+
+    .icon {
+      opacity: 0.5;
+    }
+
+    &:hover .icon {
+      opacity: 1;
+    }
+  }
+}
