@@ -33,7 +33,7 @@
 			<div class='navbar-inner'>
 				<h1>show me the money</h1>
 				<a class='brand' href='/'>
-					<img alt="Logo" src="http://theodi.github.io/p2p/img/logo.png" />
+					<img alt="Logo" src="{{ site.url_root }}/img/logo.png" />
 				</a>
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 				<ul class='nav pull-right'>
 					{% assign current = page.link %}
 					<li>
-						<a href="http://theodi.github.io/p2p">Home</a>
+						<a href="{{ site.url_root }}">Home</a>
 						{% if current == '/' %}
 							<div class="arrow-down"></div>
 						{% endif %}
@@ -52,7 +52,7 @@
 					{% for p in site.pages %}
 						{% if p.title != "Home" %}
 						<li>
-							<a href="http://theodi.github.io/p2p{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
+							<a href="{{ site.url_root }}{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
 							{% assign url = p.url | remove:'index.html' %}
 							{% if url == current %}
 								<div class="arrow-down"></div>
