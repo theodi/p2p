@@ -4,32 +4,52 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>P2P Lending | {{ page.title }}</title>
-<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="../bootstrap/docs/assets/css/odi-bootstrap.css" rel="stylesheet">
 </head>
 <body>
-	<header id="header">
-	    	<div class="container">
-	    		<div class="branding">
-	    	  	<a id="logo" rel="home" title="Home" href="http://theodi.org"><img width="207" height="48" alt="Home" src="http://theodi.org/sites/default/files/odi_header_logo.svg"></a>
-		          <hgroup id="name-and-slogan" class="hidden-phone">
-		    	      <h2 id="site-slogan">Knowledge for everyone</h2>
- 		    	  </hgroup>
-	    		</div>
-	    		<nav>
-	    			<div id="mainnav" class="navbar navbar-inverse">
-	    				<div class="navbar-inner">
-	    					<ul class="nav">
-								<li><a href="/">Home</a></li>
-							{% for page in site.pages %}
-								{% if page.title != "Home" %}
-								<li><a href="{{ page.url | remove: 'index.html' }}">{{page.title}}</a></li>
-								{% endif %}
-							{% endfor %}
-							</ul>
-	    				</div>
-	    			</div>
-	    	  </nav>
-	    	</div>
-	    </header>
-	<div class="container">
-		<section>
+<nav>
+	<div class='navbar navbar-inverse navbar-static-top' id='topbar'>
+		<div class='container'>
+			<div class='navbar-inner'>
+				<a class='brand' href='/'>
+					<img alt="Logo" src="/img/logo.png" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class='navbar navbar-static-top' id='mainnav'>
+		<div class='container'>
+			<div class='navbar-inner'>
+				<ul class='nav pull-right'>
+					{% assign current = page.link %}
+					<li>
+						<a href="/">Home</a>
+						{% if current == '/' %}
+							<div class="arrow-down"></div>
+						{% endif %}
+					</li>
+					{% for p in site.pages %}
+						{% if p.title != "Home" %}
+						<li>
+							<a href="{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
+							{% assign url = p.url | remove:'index.html' %}
+							{% if url == current %}
+								<div class="arrow-down"></div>
+							{% endif %}
+						</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class='whiteout'>
+	<header>
+		<div class='container'>
+			<h1>{{ page.title }}</h1>
+		</div>
+	</header>
+
+<div class='container main-default' id='main'>
