@@ -12,7 +12,7 @@
 		<div class='container'>
 			<div class='navbar-inner'>
 				<a class='brand' href='/'>
-					<img alt="Logo" src="/img/logo.png" />
+					<img alt="Logo" src="http://theodi.github.io/p2p/img/logo.png" />
 				</a>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 					{% for p in site.pages %}
 						{% if p.title != "Home" %}
 						<li>
-							<a href="{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
+							<a href="http://theodi.github.io/p2p{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
 							{% assign url = p.url | remove:'index.html' %}
 							{% if url == current %}
 								<div class="arrow-down"></div>
