@@ -9,6 +9,7 @@ link: /download/
 <p>Want to get at the data for this project? As well as full data dumps, we've also got dumps for specific regions:</p>
 
 <h2 property="dct:title">Peer to Peer lending statistics</h2>
+<meta property="dct:language" content="http://id.loc.gov/vocabulary/iso639-1/en" />
 
 <div property="dcat:distribution" typeof="dcat:Distribution">
 	<h3 property="dct:title">Full data</h3>
@@ -89,6 +90,29 @@ link: /download/
 			</td>
 		</tr>
 	</tbody>
+</table>
+
+<hr class="heavy">
+
+<h3>Additional information</h3>
+
+<table class="table">
+	<tr>
+		<th scope="row">Released on:</th>
+		<td property="dcat:issued">2013-06-28</td>
+	</tr>
+	<tr>
+		<th scope="row">Temporal coverage:</th>
+		<td property="dct:temporal" content="start=2012-01-01; end=2013-01-01">2012-01-01 - 2013-01-01</td>
+	</tr>
+	<tr>
+		<th scope="row">Spatial coverage:</th>
+		<td property="dct:spatial">England</td>
+	</tr>
+	<tr>
+		<th scope="row">Frequency of updates:</th>
+		<td property="dct:accrualPeriodicity">One off</td>
+	</tr>
 </table>
 
 <hr class="heavy">
