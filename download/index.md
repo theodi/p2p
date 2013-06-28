@@ -4,24 +4,29 @@ title: Get the data
 link: /download/
 ---
 
-<div typeof="dcat:Dataset" resource="http://p2p.labs.theodi.org/download">
+<div typeof="dcat:Catalog" resource="http://p2p.labs.theodi.org/download">
 
 <p>Want to get at the data for this project? As well as full data dumps, we've also got dumps for specific regions:</p>
 
 <h2 property="dct:title">Peer to Peer lending statistics</h2>
 <meta property="dct:language" content="http://id.loc.gov/vocabulary/iso639-1/en" />
 
-<div property="dcat:distribution" typeof="dcat:Distribution">
+<div typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#full">
 	<h3 property="dct:title">Full data</h3>
-
-	<meta property="dcat:mediaType" content="text/csv" />
-	<meta property="dcat:byteSize" content="1100000000" type="xsd:decimal" />
-	<a href="#" class="btn btn-primary" property="dcat:accessURL" >Download the full dataset</a>
+	
+	<div typeof="dcat:Distribution" property="dcat:distribution">
+		<meta property="dcat:mediaType" content="text/csv" />
+		<meta property="dcat:byteSize" content="1100000000" type="xsd:decimal" />
+		<meta property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/england" />
+		<a href="#" class="btn btn-primary" property="dcat:accessURL">Download the full dataset</a>
+	</div>
 </div>
 
 <hr class="heavy">
 
 <h3>Regional data</h3>
+
+<h4>Lender regions</h4>
 
 <table class="table">
 	<thead>
@@ -32,57 +37,300 @@ link: /download/
 			<th>Download</th>
 		</tr>
 	</thead>
-	<tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lendersw">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
-			<td property="dct:title">South West</td>
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041427">South West</span>
+			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
 			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
 		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderse">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
-			<td property="dct:title">South East</td>
+			<td property="dct:title">
+					<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041421">South East</span>
+				</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
 			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
 		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderlondon">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
-			<td property="dct:title">London</td>
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041428">London</span>
+			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
 			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
 		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderwm">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
-			<td property="dct:title">West Midlands</td>
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041426">West Midlands</span>
+			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
 			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
 		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderem">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
-			<td property="dct:title">East Midlands</td>
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041423">East Midlands</span>
+			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
 			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
 		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderne">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
-			<td property="dct:title">North West</td>
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041422">North East</span>
+			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
 			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
 		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lendernw">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
-			<td property="dct:title">North West</td>
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041431">North West</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderyh">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041430">Yorkshire and the Humber</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderee">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041425">East of England</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderscotland">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/scotland">Scotland</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderwales">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/wales">Wales</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#lenderni">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://dbpedia.org/page/Northern_Ireland">Northern Ireland</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Borrower regions</h4>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Region</th>
+			<th>Format</th>
+			<th>Size</th>
+			<th>Download</th>
+		</tr>
+	</thead>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowersw">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041427">South West</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerse">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+					<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041421">South East</span>
+			</td>			
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerlondon">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041428">London</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerwm">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041426">West Midlands</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerem">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041423">East Midlands</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowernw">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041431">North West</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerne">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041422">North East</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borroweryh">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041430">Yorkshire and the Humber</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borroweree">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041425">East of England</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerscotland">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/scotland">Scotland</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerwales">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/wales">Wales</span>
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerni">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				<span property="dct:spatial" content="http://dbpedia.org/page/Northern_Ireland">Northern Ireland</span>
+			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
 			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
 			<td>
@@ -107,11 +355,11 @@ link: /download/
 	</tr>
 	<tr>
 		<th scope="row">Spatial coverage:</th>
-		<td property="dct:spatial">England</td>
+		<td property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/england">England</td>
 	</tr>
 	<tr>
 		<th scope="row">Frequency of updates:</th>
-		<td property="dct:accrualPeriodicity">One off</td>
+		<td property="dct:accrualPeriodicity" content="http://purl.org/cld/freq/completelyIrregular">One off</td>
 	</tr>
 </table>
 
@@ -121,23 +369,23 @@ link: /download/
 	<div resource="#rights">
 	    <h3 property="rdfs:label">Rights Statement</h3>
 	    <ul>
-	        <li>Data Licence: <a href="http://reference.data.gov.uk/id/open-government-licence" 
-	                             property="odrs:dataLicense">UK Open Government Licence (OGL)</a>
+	        <li>Data Licence: <a href="http://opendatacommons.org/licenses/by/" 
+	                             property="odrs:dataLicense">Open Data Commons Attribution License</a>
 	        </li>
-	        <li>Content Licence: <a href="http://reference.data.gov.uk/id/open-government-licence" 
-	                                property="odrs:contentLicense">UK Open Government Licence (OGL)</a>
+	        <li>Content Licence: <a href="http://creativecommons.org/licenses/by/2.0/uk/" 
+	                                property="odrs:contentLicense">Creative Commons Attribution 2.0 UK: England &amp; Wales</a>
 	        </li>
 	    </ul>
 	    <p>
 	    When re-using this data please preserve the following copyright notice: 
-	    "<span property="odrs:copyrightNotice">Contains public sector information licensed under the Open Government Licence v1.0</span>".
+	    "<span property="odrs:copyrightNotice">Data donated by xxx, xxx and xxx</span>".
 	    </p>
 
 	    <p>
 	    <p>If you would like to attribute your use of this dataset, please use a link similar to the following: </p>
-	    <p><a href="http://gov.example.org/dataset/finances" 
+	    <p><a href="http://www.thodi.org" 
 	       property="odrs:attributionURL">
-	        <span property="odrs:attributionText">Example Department</span>.</a></p>
+	        <span property="odrs:attributionText">Open Data Institute</span>.</a></p>
 	    </p>
 	</div>
 </div>
