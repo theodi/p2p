@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+              odrs: http://schema.theodi.org/odrs#">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +28,7 @@
 				<ul class='nav pull-right'>
 					{% assign current = page.link %}
 					<li>
-						<a href="{{ site.url_root }}">Home</a>
+						<a href="{{ site.url_root }}/">Home</a>
 						{% if current == '/' %}
 							<div class="arrow-down"></div>
 						{% endif %}
