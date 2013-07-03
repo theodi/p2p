@@ -4,7 +4,7 @@ title: Home
 link: /
 ---
 
-## Enim shank in biltong!!!!
+## Enim shank in biltong
 
 Bacon ipsum dolor sit amet id dolor brisket, shankle deserunt eu cow strip steak. Boudin ham hock ut reprehenderit aute, labore turkey. Ground round pork chop turkey rump capicola voluptate. Turducken sirloin hamburger, swine in sint shank. Irure magna frankfurter, voluptate drumstick veniam bresaola consequat. Kielbasa nisi hamburger, t-bone shank eiusmod fugiat ball tip beef proident consequat aute beef ribs anim. Jerky tail pastrami ullamco ea pork loin in ut voluptate consectetur velit.
 
