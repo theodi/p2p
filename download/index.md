@@ -9,7 +9,7 @@ link: /download/
 <p>Want to get at the data for this project? As well as full data dumps, we've also got dumps for specific regions:</p>
 
 <h2 property="dct:title">Peer to Peer lending statistics</h2>
-<span property="dct:language" content="http://id.loc.gov/vocabulary/iso639-1/en"></span>
+<meta property="dct:language" content="http://id.loc.gov/vocabulary/iso639-1/en" />
 
 <div typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#full">
 	<h3 property="dct:title">Full data</h3>
