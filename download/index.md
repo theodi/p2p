@@ -15,10 +15,13 @@ link: /download/
 	<h3 property="dct:title">Full data</h3>
 	
 	<div typeof="dcat:Distribution" property="dcat:distribution">
-		<meta property="dcat:mediaType" content="text/csv" />
-		<meta property="dcat:byteSize" content="1100000000" type="xsd:decimal" />
-		<meta property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/england" />
-		<a href="#" class="btn btn-primary" property="dcat:accessURL">Download the full dataset</a>
+
+		<p><a href="#" class="btn btn-primary" property="dcat:accessURL">Download the full dataset</a></p>
+		<ul>
+			<li><strong>Format</strong> <span property="dcat:mediaType" content="text/csv">CSV</span></li>
+			<li><strong>Size</strong> <span property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</span></li>
+			<li><strong>Coverage</strong> <span property="dct:spatial" content="http://dbpedia.org/resource/United_Kingdom">UK</span></li>
+		</ul>
 	</div>
 </div>
 
@@ -43,7 +46,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041427">South West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -55,7 +58,7 @@ link: /download/
 					<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041421">South East</span>
 				</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -67,7 +70,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041428">London</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -79,7 +82,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041426">West Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -91,7 +94,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041423">East Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -103,7 +106,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041422">North East</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -115,7 +118,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041431">North West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -127,7 +130,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041430">Yorkshire and the Humber</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -139,7 +142,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041425">East of England</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -151,7 +154,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/scotland">Scotland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -163,7 +166,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/wales">Wales</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -175,7 +178,7 @@ link: /download/
 				<span property="dct:spatial" content="http://dbpedia.org/page/Northern_Ireland">Northern Ireland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -200,7 +203,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041427">South West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -212,7 +215,7 @@ link: /download/
 					<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041421">South East</span>
 			</td>			
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -224,7 +227,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041428">London</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -236,7 +239,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041426">West Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -248,7 +251,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041423">East Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -260,7 +263,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041431">North West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -272,7 +275,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041422">North East</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -284,7 +287,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041430">Yorkshire and the Humber</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -296,7 +299,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041425">East of England</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -308,7 +311,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/scotland">Scotland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -320,7 +323,7 @@ link: /download/
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/wales">Wales</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -329,10 +332,10 @@ link: /download/
 	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#borrowerni">
 		<tr property="dcat:distribution" typeof="dcat:Distribution">
 			<td property="dct:title">
-				<span property="dct:spatial" content="http://dbpedia.org/page/Northern_Ireland">Northern Ireland</span>
+				<span property="dct:spatial" content="http://dbpedia.org/resource/Northern_Ireland">Northern Ireland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1100000000" type="xsd:decimal">1.1GB</td>
+			<td property="dcat:byteSize" content="1100000000" datatype="xsd:decimal">1.1GB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="#">Download</a>
 			</td>
@@ -381,17 +384,16 @@ link: /download/
 	    "<span property="odrs:copyrightNotice">Data provided by <a href="http://uk.zopa.com/">Zopa</a>, <a href="https://www.fundingcircle.com">Funding Circle</a> and <a href="http://www.ratesetter.com/">RateSetter</a></span>".
 	    </p>
 
-	    <p>
 	    <p>If you would like to attribute your use of this dataset, please use a link similar to the following: </p>
 	    <p><a href="http://www.thodi.org" 
 	       property="odrs:attributionURL">
-	        <span property="odrs:attributionText">Open Data Institute</span>.</a></p>
+	        <span property="odrs:attributionText">Open Data Institute</span>.</a>
 	    </p>
 	</div>
 </div>
 
 <div class='open-data-certificate'>
-<style>@import url(https://certificates.theodi.org/assets/badge.css);</style>
+<style type='text/css'>@import url(https://certificates.theodi.org/assets/badge.css);</style>
 <a href="http://certificates.theodi.org/certificates/25"><img alt="Pilot_level_badge" src="https://certificates.theodi.org/assets/badges/pilot_level_badge.png" /></a>
 <ul class='open-data-certificate-details'>
 <li>
