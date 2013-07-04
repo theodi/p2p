@@ -8,7 +8,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>P2P Lending | Get the data</title>
 <link href="http://assets.theodi.org/css/odi-bootstrap-crimson.css" rel="stylesheet">
-<link rel="shortcut icon" href="http://p2p.labs.theodi.org/img/odifavicon32.ico">
+<link href="css/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="/img/odifavicon32.ico">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
+<script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
 </head>
 <body>
 <nav>
@@ -20,7 +23,7 @@
 					ALPHA
 				</span>
 				<a class='brand' href='/'>
-					<img alt="Logo" src="http://p2p.labs.theodi.org/img/logo.png" />
+					<img alt="Logo" src="/img/logo.png" />
 				</a>
 			</div>
 		</div>
@@ -31,21 +34,23 @@
 				<ul class='nav pull-right'>
 					
 					<li>
-						<a href="http://p2p.labs.theodi.org/">Home</a>
+						<a href="/">Home</a>
 						
 					</li>
 					
 						
 						<li>
-							<a href="http://p2p.labs.theodi.org/about/">About</a>
+							<a href="/about/">About</a>
 							
 							
 						</li>
 						
 					
 						
+					
+						
 						<li>
-							<a href="http://p2p.labs.theodi.org/download/">Get the data</a>
+							<a href="/download/">Get the data</a>
 							
 							
 								<div class="arrow-down"></div>
@@ -57,7 +62,7 @@
 					
 						
 						<li>
-							<a href="http://p2p.labs.theodi.org/methodology/">Methodology</a>
+							<a href="/methodology/">Methodology</a>
 							
 							
 						</li>
@@ -65,18 +70,14 @@
 					
 						
 						<li>
-							<a href="http://p2p.labs.theodi.org/p2p/">Peer to Peer Lending</a>
+							<a href="/p2p/">Peer to Peer Lending</a>
 							
 							
 						</li>
 						
 					
 						
-						<li>
-							<a href="http://p2p.labs.theodi.org/privacy/">Privacy</a>
-							
-							
-						</li>
+					
 						
 					
 				</ul>
@@ -100,19 +101,22 @@
 <p>Want to get at the data for this project? As well as full data dumps, we've also got dumps for specific regions:</p>
 
 <h2 property='dct:title'>Peer to Peer lending statistics</h2>
-<meta content='http://id.loc.gov/vocabulary/iso639-1/en' property='dct:language' />
+<span content='http://id.loc.gov/vocabulary/iso639-1/en' property='dct:language'> </span>
 
 <div property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#full' typeof='dcat:Dataset'>
 	<h3 property='dct:title'>Full data</h3>
 	
 	<div property='dcat:distribution' typeof='dcat:Distribution'>
 
-		<p><a class='btn btn-primary' href='#' property='dcat:accessURL'>Download the full dataset</a></p>
 		<ul>
 			<li><strong>Format</strong> <span content='text/csv' property='dcat:mediaType'>CSV</span></li>
-			<li><strong>Size</strong> <span content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</span></li>
+			<li><strong>Size</strong> <span content='162529280' datatype='xsd:decimal' property='dcat:byteSize'>155MB</span></li>
 			<li><strong>Coverage</strong> <span content='http://dbpedia.org/resource/United_Kingdom' property='dct:spatial'>UK</span></li>
 		</ul>
+		
+		<p><a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/complete.no.postcodes.csv.zip' property='dcat:accessURL'>Download the full dataset</a></p>
+		
+		
 	</div>
 </div>
 
@@ -137,9 +141,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041427' property='dct:spatial'>South West</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='2500000' datatype='xsd:decimal' property='dcat:byteSize'>2.5MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.south_west.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -149,9 +153,9 @@
 					<span content='http://data.ordnancesurvey.co.uk/id/7000000000041421' property='dct:spatial'>South East</span>
 				</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='4500000' datatype='xsd:decimal' property='dcat:byteSize'>4.5MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.south_east.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -161,9 +165,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041428' property='dct:spatial'>London</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='4700000' datatype='xsd:decimal' property='dcat:byteSize'>4.7MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.london.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -173,9 +177,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041426' property='dct:spatial'>West Midlands</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='1500000' datatype='xsd:decimal' property='dcat:byteSize'>1.5MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.west_midlands.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -185,9 +189,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041423' property='dct:spatial'>East Midlands</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='1200000' datatype='xsd:decimal' property='dcat:byteSize'>1.2MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.east_midlands.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -197,9 +201,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041422' property='dct:spatial'>North East</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='782000' datatype='xsd:decimal' property='dcat:byteSize'>782KB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.north_east.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -209,9 +213,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041431' property='dct:spatial'>North West</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='1800000' datatype='xsd:decimal' property='dcat:byteSize'>1.8MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.north_west.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -221,9 +225,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041430' property='dct:spatial'>Yorkshire and the Humber</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='16000000' datatype='xsd:decimal' property='dcat:byteSize'>1.6MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.yorkshire_and_the_humber.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -233,9 +237,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041425' property='dct:spatial'>East of England</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='22000000' datatype='xsd:decimal' property='dcat:byteSize'>2.2MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.east_of_england.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -245,9 +249,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/doc/country/scotland' property='dct:spatial'>Scotland</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='15000000' datatype='xsd:decimal' property='dcat:byteSize'>1.5MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.scotland.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -257,9 +261,9 @@
 				<span content='http://data.ordnancesurvey.co.uk/doc/country/wales' property='dct:spatial'>Wales</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='10000000' datatype='xsd:decimal' property='dcat:byteSize'>1MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.wales.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -269,9 +273,9 @@
 				<span content='http://dbpedia.org/page/Northern_Ireland' property='dct:spatial'>Northern Ireland</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='309000' datatype='xsd:decimal' property='dcat:byteSize'>309KB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.northern_ireland.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -288,147 +292,147 @@
 			<th>Download</th>
 		</tr>
 	</thead>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowersw' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#bordersw' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041427' property='dct:spatial'>South West</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='14100000' datatype='xsd:decimal' property='dcat:byteSize'>14.1MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.south_west.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerse' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderse' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 					<span content='http://data.ordnancesurvey.co.uk/id/7000000000041421' property='dct:spatial'>South East</span>
-			</td>			
+				</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='21500000' datatype='xsd:decimal' property='dcat:byteSize'>21.5MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.south_east.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerlondon' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderlondon' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041428' property='dct:spatial'>London</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='15900000' datatype='xsd:decimal' property='dcat:byteSize'>15.9MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.london.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerwm' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderwm' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041426' property='dct:spatial'>West Midlands</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='12100000' datatype='xsd:decimal' property='dcat:byteSize'>12.1MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.west_midlands.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerem' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderem' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041423' property='dct:spatial'>East Midlands</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='10300000' datatype='xsd:decimal' property='dcat:byteSize'>10.3MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.east_midlands.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowernw' typeof='dcat:Dataset'>
-		<tr property='dcat:distribution' typeof='dcat:Distribution'>
-			<td property='dct:title'>
-				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041431' property='dct:spatial'>North West</span>
-			</td>
-			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
-			</td>
-		</tr>
-	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerne' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderne' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041422' property='dct:spatial'>North East</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='7500000' datatype='xsd:decimal' property='dcat:byteSize'>7.5MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.north_east.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borroweryh' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#bordernw' typeof='dcat:Dataset'>
+		<tr property='dcat:distribution' typeof='dcat:Distribution'>
+			<td property='dct:title'>
+				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041431' property='dct:spatial'>North West</span>
+			</td>
+			<td content='text/csv' property='dcat:mediaType'>CSV</td>
+			<td content='18900000' datatype='xsd:decimal' property='dcat:byteSize'>18.9MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.north_west.csv.zip' property='dcat:accessURL'>Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderyh' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041430' property='dct:spatial'>Yorkshire and the Humber</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='117000000' datatype='xsd:decimal' property='dcat:byteSize'>11.7MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.yorkshire_and_the_humber.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borroweree' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderee' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/id/7000000000041425' property='dct:spatial'>East of England</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='56000000' datatype='xsd:decimal' property='dcat:byteSize'>5.6MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.east_of_england.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerscotland' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderscotland' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/doc/country/scotland' property='dct:spatial'>Scotland</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='164000000' datatype='xsd:decimal' property='dcat:byteSize'>16.4MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.scotland.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerwales' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderwales' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
 				<span content='http://data.ordnancesurvey.co.uk/doc/country/wales' property='dct:spatial'>Wales</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='103000000' datatype='xsd:decimal' property='dcat:byteSize'>10.3MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.wales.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
-	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borrowerni' typeof='dcat:Dataset'>
+	<tbody property='dcat:dataset' resource='http://p2p.labs.theodi.org/download/#borderni' typeof='dcat:Dataset'>
 		<tr property='dcat:distribution' typeof='dcat:Distribution'>
 			<td property='dct:title'>
-				<span content='http://dbpedia.org/resource/Northern_Ireland' property='dct:spatial'>Northern Ireland</span>
+				<span content='http://dbpedia.org/page/Northern_Ireland' property='dct:spatial'>Northern Ireland</span>
 			</td>
 			<td content='text/csv' property='dcat:mediaType'>CSV</td>
-			<td content='1100000000' datatype='xsd:decimal' property='dcat:byteSize'>1.1GB</td>
-			<td>
-				<a class='btn btn-primary' href='#' property='dcat:accessURL'>Download</a>
+			<td content='33000000' datatype='xsd:decimal' property='dcat:byteSize'>3.3MB</td>
+			<td property='dct:type' resource=':indirect-access'>
+				<a class='btn btn-primary' href='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.northern_ireland.csv.zip' property='dcat:accessURL'>Download</a>
 			</td>
 		</tr>
 	</tbody>
@@ -449,40 +453,23 @@
 	</tr>
 	<tr>
 		<th scope='row'>Spatial coverage:</th>
-		<td content='http://data.ordnancesurvey.co.uk/doc/country/england' property='dct:spatial'>England</td>
+		<td content='http://dbpedia.org/resource/United_Kingdom' property='dct:spatial'>United Kingdom</td>
 	</tr>
 	<tr>
 		<th scope='row'>Frequency of updates:</th>
-		<td content='http://purl.org/cld/freq/completelyIrregular' property='dct:accrualPeriodicity'>One off</td>
+		<td content='http://purl.org/cld/freq/irregular' property='dct:accrualPeriodicity'>One off</td>
 	</tr>
 </table>
 
 <hr class='heavy' />
 
-<div property='dct:rights' resource='#rights'>
-	<div resource='#rights'>
-	    <h3 property='rdfs:label'>Rights Statement</h3>
-	    <ul>
-	        <li>Data Licence: <a href='http://opendatacommons.org/licenses/by/' property='odrs:dataLicense'>Open Data Commons Attribution License</a>
-	        </li>
-	        <li>Content Licence: <a href='http://creativecommons.org/licenses/by/2.0/uk/' property='odrs:contentLicense'>Creative Commons Attribution 2.0 UK: England &amp; Wales</a>
-	        </li>
-	    </ul>
-	    <p>
-	    When re-using this data please preserve the following copyright notice: 
-	    "<span property='odrs:copyrightNotice'>Data provided by <a href='http://uk.zopa.com/'>Zopa</a>, <a href='https://www.fundingcircle.com'>Funding Circle</a> and <a href='http://www.ratesetter.com/'>RateSetter</a></span>".
-	    </p>
+<h3>Rights and reuse</h3>
 
-	    <p>If you would like to attribute your use of this dataset, please use a link similar to the following: </p>
-	    <p><a href='http://www.thodi.org' property='odrs:attributionURL'>
-	        <span property='odrs:attributionText'>Open Data Institute</span>.</a>
-	    </p>
-	</div>
-</div>
+<p>When reusing this dataset, please see the <a href='/rights' property='dct:rights' resource='#rights'>Rights statement</a> for the terms of use</p>
 
 <div class='open-data-certificate'>
-<style type='text/css'>@import url(https://certificates.theodi.org/assets/badge.css);</style>
-<a href='http://certificates.theodi.org/certificates/25'><img alt='Pilot_level_badge' src='https://certificates.theodi.org/assets/badges/pilot_level_badge.png' /></a>
+<style>@import url(https://certificates.theodi.org/assets/badge.css);</style>
+<a href='http://certificates.theodi.org/certificates/83'><img alt='Pilot_level_badge' src='https://certificates.theodi.org/assets/badges/pilot_level_badge.png' /></a>
 <ul class='open-data-certificate-details'>
 <li>
 <span>Pilot Open Data Certificate (beta)</span>
@@ -491,10 +478,10 @@
 <span>self-certified</span>
 </li>
 <li>
-<span>SCAPE Characterisation Components Benchmarking Data</span>
+<span>Peer to Peer lending statistics</span>
 </li>
 <li>
-<span>awarded 10 Jun 2013</span>
+<span>awarded 3 Jul 2013</span>
 </li>
 </ul>
 </div>
@@ -510,14 +497,34 @@
 			<h1><a href='http://www.theodi.org'>Open Data Institute</a></h1>
 			<p> <a href='http://www.openstreetmap.org/?lat=51.522205&amp;lon=-0.08176500000001852&amp;zoom=16&amp;layers=T&amp;mlat=51.52210&amp;mlon=-0.08343'>Open Data Institute</a><span>, 65 Clifton Street, London EC2A 4JE</span></p>
 			<p><a href='mailto:info@theodi.org'>info@theodi.org</a> · Company <a href='http://opencorporates.com/companies/gb/08030289'>08030289</a>	· <span>VAT</span> <span>143 7796 80</span></p>
-			<p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img alt="Creative Commons Licence" height="15" src="http://p2p.labs.theodi.org/img/logo_cc_80x15.png" width="80" /></a></p>
+			<p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img alt="Creative Commons Licence" height="15" src="/img/logo_cc_80x15.png" width="80" /></a></p>
 		</div>
 		<div class='span4 footer-nav'>
 			<nav>
 				<ul class='pull-right'>
-					<li><a href="/terms">Terms of use</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/contact">Get in touch</a></li>
+					
+						
+					
+						
+						<li><a href="/contact/">Get in touch</a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li><a href="/privacy/">Privacy</a></li>
+						
+					
+						
+						<li><a href="/rights/">Rights Statement</a></li>
+						
+					
 				</ul>
 			</nav>
 		</div>

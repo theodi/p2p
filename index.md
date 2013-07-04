@@ -10,6 +10,28 @@ Bacon ipsum dolor sit amet id dolor brisket, shankle deserunt eu cow strip steak
 
 Enim shank in biltong, laborum in deserunt cow. Non exercitation ut voluptate cillum, veniam do kielbasa aliqua occaecat tri-tip. Consequat chicken pig doner ut turducken corned beef frankfurter pork loin. Anim dolore eiusmod, rump nisi consequat in. Meatloaf anim chuck dolor sausage. Magna corned beef jowl ut, chuck biltong ut pancetta cow.
 
+<ul class="nav nav-tabs" id="tabs">
+  <li class="active"><a href="#vis1" data-toggle="tab">Visualisation one</a></li>
+  <li><a href="#vis2" data-toggle="tab">Visualisation two</a></li>
+</ul>
+
+<div class="tab-content">
+	<div id="vis1" class="tab-pane active">
+		<iframe src="http://iconomical.com/customers/ODI/P2P/" width="960" height="790"> </iframe>
+	</div>
+
+	<div id="vis2" class="tab-pane">
+		<iframe src="http://www.iconomical.com/customers/ODI/Demo/" width="980" height="670"> </iframe>
+	</div>
+</div>
+
+<script>
+$('#tabs a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+</script>
+
 ### Pork chop nisi kielbasa velit
 
 Brisket tail pancetta, drumstick turkey officia veniam prosciutto fatback bresaola pork chop exercitation shank aute voluptate. Laborum ad tri-tip filet mignon pork rump. Frankfurter laborum drumstick jerky ut ex commodo pork ribeye boudin. Est esse sunt shoulder jowl andouille deserunt do. Consectetur meatball enim pariatur. Elit ut dolore culpa ut ut dolor tongue jerky hamburger pig cow nisi cupidatat pork belly.

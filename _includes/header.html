@@ -8,7 +8,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>P2P Lending | {{ page.title }}</title>
 <link href="http://assets.theodi.org/css/odi-bootstrap-crimson.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 <link rel="shortcut icon" href="{{ site.url_root }}/img/odifavicon32.ico">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
+<script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
 </head>
 <body>
 <nav>
@@ -37,7 +40,7 @@
 						{% endif %}
 					</li>
 					{% for p in site.pages %}
-						{% if p.title != "Home" %}
+						{% if p.menu == "top" %}
 						<li>
 							<a href="{{ site.url_root }}{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
 							{% assign url = p.url | remove:'index.html' %}

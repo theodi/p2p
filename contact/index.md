@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Privacy
-link: /privacy/
+title: Get in touch
+link: /contact/
 menu: bottom
 ---

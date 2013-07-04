@@ -2,6 +2,7 @@
 layout: default
 title: About
 link: /about/
+menu: top
 ---
 
 ## Obsessive Compulsive Disorder

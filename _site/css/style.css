@@ -1,0 +1,13 @@
+iframe {
+	border: none;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#tabs {
+	margin-top: 30px;
+}
+
+#tabs li {
+	margin-bottom: -1px;
+}
