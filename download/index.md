@@ -374,7 +374,7 @@ menu: top
 
 <h3>Rights and reuse</h3>
 
-<p>When reusing this dataset, please see the <a href="/rights" property="dct:rights" resource="#rights">Rights statement</a> for the terms of use</p>
+<p>When reusing this dataset, please see the <a href="/rights" property="dct:rights" resource="/rights">Rights statement</a> for the terms of use</p>
 
 <div class='open-data-certificate'>
 <style>@import url(https://certificates.theodi.org/assets/badge.css);</style>
