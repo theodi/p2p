@@ -18,6 +18,6 @@ menu: bottom
     <p>If you would like to attribute your use of this dataset, please use a link similar to the following: </p>
     <p><a href="http://p2p.labs.theodi.org/about" 
        property="odrs:attributionURL">
-        <span property="odrs:attributionText">Peer to Peer lending data provided by <a href="http://theodi.org" property="dc:contributor">Open Data Institute</a>, <a href="http://uk.zopa.com/" property="dc:contributor">Zopa</a>, <a href="https://www.fundingcircle.com" property="dc:contributor">Funding Circle</a> and <a href="http://www.ratesetter.com/" property="dc:contributor">RateSetter</a></span>.</a>
+        <span property="odrs:attributionText">Peer to Peer lending data provided by Open Data Institute, Zopa, Funding Circle and RateSetter</span>.</a>
     </p>
 </div>
