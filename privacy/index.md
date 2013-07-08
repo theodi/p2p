@@ -12,43 +12,58 @@ The P2P data derives mostly from individuals and hence counts as personal data. 
 2. Omitted all variables which are not relevant to this study such as sector or purpose
 3. Conducted a privacy impact assessment (see below) 
 
-### Screening questions
-
-1. Does the project involve new or inherently privacy-invasive technologies?
-2. Is the justification for the new data-handling unclear or unpublished?
-3. Does the project involve an additional use of an existing identifier?
-4. Does the project involve use of a new identifier for multiple purposes?
-5. Does the project involve new or substantially changed identity authentication requirements that may be intrusive or onerous?
- 6. Will the project result in the handling of a significant amount of new data about each person, or significant change in existing data-holdings?
-7. Will the project result in the handling of new data about a significant number of people, or a significant change in the population coverage?
-8. Does the project involve new linkage of personal data with data in other collections, or significant change in data linkages?
-9. Does the project involve new or changed data collection policies or practices that may be unclear or intrusive?
-10. Does the project involve new or changed data quality assurance processes and standards that may be unclear or unsatisfactory?
-11. Does the project involve new or changed data security arrangements that may be unclear or unsatisfactory?
-12. Does the project involve new or changed data access or disclosure arrangements that may be unclear or permissive?
-13. Does the project involve new or changed data retention arrangements that may be unclear or extensive?
-14. Does the project involve changing the medium of disclosure for publicly available information in such a way that the data becomes more readily accessible than before?
-Exemptions
-15. Will the project give rise to new or changed data-handling that is in any way exempt from legislative privacy protections?
-
 
 ### Small-scale privacy impact assessment (PIA)
 
-ICO's guide
-Anonymisation: managing data protection risk code of practice
+Following the ICO's [guide](http://www.ico.org.uk/upload/documents/pia_handbook_html_v2/html/1-Chap1-1.html) we conducted a small-scale PIA. The screening questions are in the next section. 
 
-> For example, in England, when anonymising postcodes the following average characteristics of postcodes should be considered:
+The initial consultation included all three P2P lending platforms. The main concerns for re-identification were fields that include free-text comments and the postcode of the lender or recipient. 
+
+We therefore decided not to release the fields that included additional information such as loan purpose or comment. They were not used in this project. Regarding the risk of releasing postcodes we relied on the following guidelines:
+
+> In England, when anonymising postcodes the following average characteristics of postcodes should be considered:
+> 
 > * full postcode = approx 15 households (although some postcodes only relate to a single property)
 > * postcode minus the last digit = approx 120/200 households 
 > * postal sector = 4  outbound digits + 1 inbound gives approx 2,600 households 
 > * postal district = 4 outbound digits approx 8,600 households 
-> * postal area = 2 outbound digits approx 194,000 households 
+> * postal area = 2 outbound digits approx 194,000 households
+>  
 > Source: Centre for Advanced Spatial Analysis: UCL
 
+A acceptable trade-off between granularity and usefulness resulted in postcode districts. In Scotland, some districts may be below 8,600 households but still far above standard thresholds.
 
-full postcode = approx 15 households (although some postcodes only relate to a single property) 
+The only output that utilises postcodes are maps that show the growing market over time. However, the resolution is hardly high enough to identify particular postcodes and, moreover, there is no additional information displayed on the map.
 
-postal area = 2 outbound digits approx 194,000 households 
-postal district = 4 outbound digits approx 8,600 households 
+Prior to publication, and in the final stage of the project, we conducted another consultation with the three P2P platforms. The unanimous assessment was that the risk of re-identification is "close to zero".
 
-Source: Centre for Advanced Spatial Analysis, UCL
+
+
+### Screening questions
+
+1. **Does the project apply new or additional information technologies that have substantial potential for privacy intrusion?**
+	* No. Web technologies are arguably no longer new technologies and financial data exists similarly in the traditional banking sector.
+	* The data relates to individual loan parts and does not provide any information regarding the identity of the lender or recipient.
+2. **Does the project involve new identifiers, re-use of existing identifiers, or intrusive identification, identity authentication or identity management processes?**
+	* No. The project only uses identifiers for loans.
+	* The original identifiers were masked by a generic list.
+3. **Might the project have the effect of denying anonymity and pseudonymity, or converting transactions that could previously be conducted anonymously or pseudonymously into identified transactions?**
+	* No. The data does not include names or any other identifiers.
+	* The transactions are never completely anonymous as individuals have to sign up to the platform.
+4. **Does the project involve multiple organisations, whether they are government agencies (eg in 'joined-up government' initiatives) or private sector organisations (eg as outsourced service providers or as 'business partners')?**
+	* The project involves three private businesses.
+5.  **Does the project involve new or significantly changed handling of personal data that is of particular concern to individuals?**
+	* The publication of P2P transactions does not involve any new or or significantly changed handling of personal data.
+ 6. **Does the project involve new or significantly changed handling of a considerable amount of personal data about each individual in the database?**
+	* No. The data relates to loans, is considerably reduced in size and is a snapshot in time.
+7. **Does the project involve new or significantly changed handling of personal data about a large number of individuals?**
+	* No, as outlined in question 6. 
+8. **Does the project involve new or significantly changed consolidation, inter-linking, cross-referencing or matching of personal data from multiple sources?**
+	* No. The only link to other data sources occurs on a regional level and are population estimates.
+9. **Does the project relate to data processing which is in any way exempt from legislative privacy protections?**
+	* No. 
+10. **Does the project's justification include significant contributions to public security measures?**
+	* No.
+11.  **Does the project involve systematic disclosure of personal data to, or access by, third parties that are not subject to comparable privacy regulation?**
+	* The data can be viewed outside the UK. However, after the process of anonymisation it is no longer personal data.
+

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Peer to Peer Lending
+title: Peer-to-peer Lending
 link: /p2p/
 menu: top
 ---

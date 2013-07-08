@@ -2,6 +2,7 @@ iframe {
 	border: none;
 	overflow: hidden;
 	margin: 0 auto;
+	display: block;
 }
 
 #tabs {
