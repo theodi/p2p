@@ -1,3 +1,16 @@
+h1 a {
+	color: white;
+}
+
+h1 a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#visualisation {
+	width: 960px;
+}
+
 iframe {
 	border: none;
 	overflow: hidden;
