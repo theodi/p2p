@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rights Statement
+title: Rights statement
 link: /rights/
 menu: bottom
 ---

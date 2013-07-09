@@ -3,6 +3,7 @@ layout: default
 title: Methodology
 link: /methodology/
 menu: top
+weight: 3
 ---
 
 ## Data

@@ -18,7 +18,7 @@
 	<div class='navbar navbar-inverse navbar-static-top' id='topbar'>
 		<div class='container'>
 			<div class='navbar-inner'>
-				<h1>show me the money</h1>
+				<h1><a href="/">show me the money</a></h1>
 				<span class="label" style="top: -10px; position: absolute; left: 310px;">
 					ALPHA
 				</span>
@@ -39,16 +39,18 @@
 							<div class="arrow-down"></div>
 						{% endif %}
 					</li>
-					{% for p in site.pages %}
-						{% if p.menu == "top" %}
-						<li>
-							<a href="{{ site.url_root }}{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
-							{% assign url = p.url | remove:'index.html' %}
-							{% if url == current %}
-								<div class="arrow-down"></div>
+					{% for w in (1..10) %}
+						{% for p in site.pages %}
+							{% if p.menu == "top" and p.weight == w %}
+							<li>
+								<a href="{{ site.url_root }}{{ p.url | remove: 'index.html' }}">{{p.title}}</a>
+								{% assign url = p.url | remove:'index.html' %}
+								{% if url == current %}
+									<div class="arrow-down"></div>
+								{% endif %}
+							</li>
 							{% endif %}
-						</li>
-						{% endif %}
+						{% endfor %}
 					{% endfor %}
 				</ul>
 			</div>

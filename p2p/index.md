@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Peer-to-peer Lending
+title: Peer-to-peer lending
 link: /p2p/
 menu: top
+weight: 2
 ---
 
 Peer-to-peer (P2P) platforms are online sites that match lenders to borrowers. At this basic level they are much like banks. However, unlike banks, P2P platforms usually do not invest these funds solely at their own discretion.  Instead some enable investors to directly make investment decisions by choosing the borrowers they fund or allowing investors to define the general social or financial features of the projects in which they want to invest. As a rule of thumb, the specific relationships made between investors and borrowers on P2P platforms are more transparent then when those relationships are indirectly constituted through banks.
