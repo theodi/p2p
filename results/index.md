@@ -9,7 +9,7 @@ weight: 5
 ## Results
 
 ### Overall statistics
-The total amount of P2P loans in the sample was **£378.3 million**. In the data, the UK market from Oct 2010 to May 2013, we can identify 48,891 investors and 59,851 recipients (see Methodology for details and caveats). Table 1.1 shows the average loan and Figure TK the whole distribution across lenders and recipients.
+The total amount of P2P loans in the sample was **£378.3 million**. In the data, the UK market from Oct 2010 to May 2013, we can identify 48,891 investors and 59,851 recipients (see Methodology for details and caveats). Table 1.1 shows the average loan and Figure 1.1 and 1.2 the whole distribution across lenders and recipients.
 The unit of analysis is a loan part. In total there are 13,924,547 loan parts. A borrower who takes out a loan of £2,000 may receive the money from hundreds of different lenders. Vice versa, a lender may subdivide her investment into many loans. A typical (median, see explanation) amount for a loan part is £10. However, in a small number of cases the investment per loan part is substantially larger.
 
 ###### Table 1.1 Descriptive statistics for lenders and recipients
@@ -27,27 +27,27 @@ Median loan          |  1,290        |  4,160Standard deviation   | 29,369     
 
 Each loan part has a postcode for the lender and the recipient. Thus, we can calculate regional flows at any level in the UK. Table 1.2 is aggregated on a regional level. Perhaps not surprisingly, London is the biggest investor and the second biggest recipient. Only the South East receives more financial resources from the P2P market. 
 
-Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see [Appendix](#appendix)). However, bear in mind that the regional allocation is, in most cases, *not* a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisions. ###### Table 1.2 Regional statistics and population figures| Region                   | As investors (£)  | As recipients (£) |    Net sum (£)     | Population  | Investment (£ per person) | Receiving (£ per person) |  Net sum (£ per person) |
-|-------------------|--------------------:|-------------------:|-----------:|------------:|-----:|------:|------:|
-|          London          |  96,535,000  |  48,725,000  |  47,810,000  |  8,204,000  |  11.8  |  5.9  | 5.83  |
-| South East               |  76,353,000  |  57,602,000  |  18,751,000  |  8,653,000  |  8.8   |  6.7  | 2.17  |
-| South West               |  41,144,000  |  32,076,000  |  9,068,000   |  5,301,000  |  7.8   |  6.1  | 1.71  |
-| East of England          |  37,243,000  |  29,748,000  |  7,495,000   |  5,862,000  |  6.4   |  5.1  | 1.28  |
-| West Midlands            |  21,207,000  |  29,978,000  | -8,771,000   |  5,609,000  |  3.8   |  5.3  | -1.56 |
-| East Midlands            |  15,665,000  |  25,239,000  | -9,574,000   |  4,537,000  |  3.5   |  5.6  | -2.11 |
-| North West               |  26,803,000  |  42,434,000  | -15,631,000  |  7,056,000  |  3.8   |  6.0  | -2.22 |
-| Yorkshire and The Humber |  20,584,000  |  32,756,000  | -12,172,000  |  5,288,000  |  3.9   |  6.2  | -2.30 |
-| Northern Ireland         |  2,527,000   |  6,993,000   | -4,466,000   |  1,807,000  |  1.4   |  3.9  | -2.47 |
-| Scotland                 |  19,219,000  |  33,108,000  | -13,889,000  |  5,255,000  |  3.7   |  6.3  | -2.64 |
-| Wales                    |  12,880,000  |  22,355,000  | -9,476,000   |  3,064,000  |  4.2   |  7.3  | -3.09 |
-| North East               |  8,104,000   |  17,250,000  | -9,145,000   |  2,596,000  |  3.1   |  6.6  | -3.52 |
+Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see Appendix). However, bear in mind that the regional allocation is, in most cases, *not* a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisions. ###### Table 1.2 Regional statistics and population figures (in £ and £ per person)| Region                   | As lenders   | As recipients | Net sum     | Population  | Investment (£ p.p.) | Receiving (£ p.p.) | Net sum (£ p.p.) |
+|--------------------------|-------------:|-------------:|-------------:|------------:|-------:|--- --:|-----:|
+| London                   |  96,535,000  |  48,725,000  |  47,810,000  |  8,204,000  |  11.8  |  5.9  | 5.8  |
+| South East               |  76,353,000  |  57,602,000  |  18,751,000  |  8,653,000  |  8.8   |  6.7  | 2.2  |
+| South West               |  41,144,000  |  32,076,000  |  9,068,000   |  5,301,000  |  7.8   |  6.1  | 1.7  |
+| East of England          |  37,243,000  |  29,748,000  |  7,495,000   |  5,862,000  |  6.4   |  5.1  | 1.3  |
+| West Midlands            |  21,207,000  |  29,978,000  | -8,771,000   |  5,609,000  |  3.8   |  5.3  | -1.6 |
+| East Midlands            |  15,665,000  |  25,239,000  | -9,574,000   |  4,537,000  |  3.5   |  5.6  | -2.1 |
+| North West               |  26,803,000  |  42,434,000  | -15,631,000  |  7,056,000  |  3.8   |  6.0  | -2.2 |
+| Yorkshire and The Humber |  20,584,000  |  32,756,000  | -12,172,000  |  5,288,000  |  3.9   |  6.2  | -2.3 |
+| Northern Ireland         |  2,527,000   |  6,993,000   | -4,466,000   |  1,807,000  |  1.4   |  3.9  | -2.5 |
+| Scotland                 |  19,219,000  |  33,108,000  | -13,889,000  |  5,255,000  |  3.7   |  6.3  | -2.6 |
+| Wales                    |  12,880,000  |  22,355,000  | -9,476,000   |  3,064,000  |  4.2   |  7.3  | -3.1 |
+| North East               |  8,104,000   |  17,250,000  | -9,145,000   |  2,596,000  |  3.1   |  6.6  | -3.5 |
 
 We included some external open data, namely population estimates from the UK census for each of the region. From this we can "normalise" (divide) the regional figures by population. London still tops the list with £12 per person. The differences across regions are more pronounced among investors. In fact, across the UK regions the P2P loans spread at around £5-7 per person (with the exception of Northern Ireland where it's only £4).
 
 
 #### Loan rates and term per region
 
-The UK has 12 regions and because a region can lend itself money there are a total of 144 possible combination for different flows. For each tuple, e.g. London lending to the South East, we calculated the average loan rate and average length (see [weights](#weights) for details). 
+The UK has 12 regions and because a region can lend itself money there are a total of 144 possible combination for different flows. For each tuple, e.g. London lending to the South East, we calculated the average loan rate and average length (see weights for details). 
 
 In both cases, loan rates and term, we find that the variation between region is surprisingly low. On average loans are priced between 6.1% and 6.7% and have a length of 37 to 41 months.
 
@@ -63,7 +63,7 @@ There is no salient pattern for recipients when it comes to interest rates. The 
 
 Similarly to regions, we can calculate statistics for English counties. The visualisation on the front page provides further tools to explore the data.
 
-|    County   |  Lending   | Receiving |    Net     |
+|    County  		 |  Lending   | Receiving |    Net     |
 |:------------------|-----------:|----------:|-----------:|
 | Buckinghamshire   | 8,533,000  | 3,974,000 | 4,559,000  |
 | Cambridgeshire    | 7,557,000  | 3,569,000 | 3,988,000  |
@@ -95,6 +95,7 @@ Similarly to regions, we can calculate statistics for English counties. The visu
 
 
 ## [Appendix](id:appendix)
+###### Table A.1 Detailed regional flows within the UK
 |      Recipient —>       |  East Midlands  |  East of England  |    London    |  North East  |  North West  |  Northern Ireland  |   Scotland   |  South East  |  South West  |    Wales     |  West Midlands  |  Yorkshire and The Humber  |  Grand Total  |
 |--------------------------|-----------------|-------------------|--------------|--------------|--------------|--------------------|--------------|--------------|--------------|--------------|-----------------|----------------------------|---------------|
 | East Midlands            |  1,082,239      |  1,253,465        |  1,931,601   |  717,833     |  1,734,419   |  313,874           |  1,382,597   |  2,345,638   |  1,358,018   |  942,027     |  1,253,462      |  1,350,242                 |  15,665,415   |
