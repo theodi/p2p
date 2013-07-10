@@ -373,6 +373,57 @@ weight: 4
 
 <hr class="heavy">
 
+<h3>Other data</h3>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Format</th>
+			<th>Size</th>
+			<th>Download</th>
+		</tr>
+	</thead>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#county">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				Statistics by County
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1096 " datatype="xsd:decimal">1kb</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/county-statistics-p2p.csv">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#region">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				Statistics by Region
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="1096 " datatype="xsd:decimal">1kb</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/region-statistics-p2p.csv">Download</a>
+			</td>
+		</tr>
+	</tbody>
+	<tbody typeof="dcat:Dataset" property="dcat:dataset" resource="http://p2p.labs.theodi.org/download/#flow">
+		<tr property="dcat:distribution" typeof="dcat:Distribution">
+			<td property="dct:title">
+				Region Flow
+			</td>
+			<td property="dcat:mediaType" content="text/csv">CSV</td>
+			<td property="dcat:byteSize" content="19000 " datatype="xsd:decimal">19kb</td>
+			<td>
+				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/region-flow-p2p.csv">Download</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr class="heavy">
+
 <h3>Rights and reuse</h3>
 
 <p>When reusing this dataset, please see the <a href="/rights" property="dct:rights" resource="/rights">Rights statement</a> for the terms of use</p>
