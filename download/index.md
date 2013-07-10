@@ -191,7 +191,7 @@ weight: 4
 	</tbody>
 </table>
 
-<h4>Borrower regions</h4>
+<h4>Recipient regions</h4>
 
 <table class="table">
 	<thead>
