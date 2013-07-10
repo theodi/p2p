@@ -348,6 +348,8 @@ weight: 4
 	</tbody>
 </table>
 
+<hr class="heavy">
+
 <h3>Other data</h3>
 
 <table class="table">
@@ -396,8 +398,6 @@ weight: 4
 		</tr>
 	</tbody>
 </table>
-
-<hr class="heavy">
 
 <hr class="heavy">
 
