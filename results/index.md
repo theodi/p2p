@@ -27,7 +27,7 @@ Median loan          |  1,290        |  4,160Standard deviation   | 29,369     
 
 Each loan part has a postcode for the lender and the recipient. Thus, we can calculate regional flows at any level in the UK. Table 1.2 is aggregated on a regional level. Perhaps not surprisingly, London is the biggest investor and the second biggest recipient. Only the South East receives more financial resources from the P2P market. 
 
-Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see Appendix). However, bear in mind that the regional allocation is, in most cases, *not* a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisions. ###### Table 1.2 Regional statistics and population figures (in £ and £ per person)| Region                   | As lenders   | As recipients | Net sum     | Population  | Investment (£ p.p.) | Receiving (£ p.p.) | Net sum (£ p.p.) |
+Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see Appendix). However, bear in mind that the regional allocation is, in most cases, *not* a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisions. ###### Table 1.2 Regional statistics and population figures (in £ and £ per person)| Region                   | As lender   | As recipient | Net sum     | Population  | Investment (£ p.p.) | Receiving (£ p.p.) | Net sum (£ p.p.) |
 |--------------------------|-------------:|-------------:|-------------:|------------:|-------:|--- --:|-----:|
 | London                   |  96,535,000  |  48,725,000  |  47,810,000  |  8,204,000  |  11.8  |  5.9  | 5.8  |
 | South East               |  76,353,000  |  57,602,000  |  18,751,000  |  8,653,000  |  8.8   |  6.7  | 2.2  |
@@ -39,8 +39,8 @@ Four regions have a positive balance; they invest more than they receive. All fo
 | Yorkshire and The Humber |  20,584,000  |  32,756,000  | -12,172,000  |  5,288,000  |  3.9   |  6.2  | -2.3 |
 | Northern Ireland         |  2,527,000   |  6,993,000   | -4,466,000   |  1,807,000  |  1.4   |  3.9  | -2.5 |
 | Scotland                 |  19,219,000  |  33,108,000  | -13,889,000  |  5,255,000  |  3.7   |  6.3  | -2.6 |
-| Wales                    |  12,880,000  |  22,355,000  | -9,476,000   |  3,064,000  |  4.2   |  7.3  | -3.1 |
-| North East               |  8,104,000   |  17,250,000  | -9,145,000   |  2,596,000  |  3.1   |  6.6  | -3.5 |
+| Wales                    |  12,880,000  |  22,355,000  | -9,475,000   |  3,064,000  |  4.2   |  7.3  | -3.1 |
+| North East               |  8,104,000   |  17,250,000  | -9,146,000   |  2,596,000  |  3.1   |  6.6  | -3.5 |
 
 We included some external open data, namely population estimates from the UK census for each of the region. From this we can "normalise" (divide) the regional figures by population. London still tops the list with £12 per person. The differences across regions are more pronounced among investors. In fact, across the UK regions the P2P loans spread at around £5-7 per person (with the exception of Northern Ireland where it's only £4).
 
