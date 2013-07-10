@@ -348,31 +348,6 @@ weight: 4
 	</tbody>
 </table>
 
-<hr class="heavy">
-
-<h3>Additional information</h3>
-
-<table class="table">
-	<tr>
-		<th scope="row">Released on:</th>
-		<td property="dcat:issued">2013-06-28</td>
-	</tr>
-	<tr>
-		<th scope="row">Temporal coverage:</th>
-		<td property="dct:temporal" content="start=2012-01-01; end=2013-01-01">2012-01-01 - 2013-01-01</td>
-	</tr>
-	<tr>
-		<th scope="row">Spatial coverage:</th>
-		<td property="dct:spatial" content="http://dbpedia.org/resource/United_Kingdom">United Kingdom</td>
-	</tr>
-	<tr>
-		<th scope="row">Frequency of updates:</th>
-		<td property="dct:accrualPeriodicity" content="http://purl.org/cld/freq/irregular">One off</td>
-	</tr>
-</table>
-
-<hr class="heavy">
-
 <h3>Other data</h3>
 
 <table class="table">
@@ -420,6 +395,31 @@ weight: 4
 			</td>
 		</tr>
 	</tbody>
+</table>
+
+<hr class="heavy">
+
+<hr class="heavy">
+
+<h3>Additional information</h3>
+
+<table class="table">
+	<tr>
+		<th scope="row">Released on:</th>
+		<td property="dcat:issued">2013-06-28</td>
+	</tr>
+	<tr>
+		<th scope="row">Temporal coverage:</th>
+		<td property="dct:temporal" content="start=2012-01-01; end=2013-01-01">2012-01-01 - 2013-01-01</td>
+	</tr>
+	<tr>
+		<th scope="row">Spatial coverage:</th>
+		<td property="dct:spatial" content="http://dbpedia.org/resource/United_Kingdom">United Kingdom</td>
+	</tr>
+	<tr>
+		<th scope="row">Frequency of updates:</th>
+		<td property="dct:accrualPeriodicity" content="http://purl.org/cld/freq/irregular">One off</td>
+	</tr>
 </table>
 
 <hr class="heavy">
