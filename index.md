@@ -4,9 +4,13 @@ title: Home
 link: /
 ---
 
-Id malis vulputate pro, quo evertitur consequat ea. Qui cu integre incorrupte suscipiantur, aeque maiestatis eos ex. Soleat inermis inciderint ut per. Qui omnis aliquam complectitur ei. Per in veniam corpora scribentur.
-
-At facer tritani quaestio vix. Et est timeam alienum, mel ei quaeque similique definitionem. Scripta placerat no vis. Ex per harum adversarium. Paulo populo in sea, clita legere pri te. Ut qui equidem detraxit recteque, decore voluptaria quo et.
+This site provides the most comprehensive snapshot to date of the UK peer-to-peer lending (p2p) market. Using data from the three biggest p2p platforms in the UK (Zopa, RateSetter and Funding Circle) we highlight the regional geography of lending in the UK. The visualisations below provide fascinating insight on which regions are net lenders and recipients of funds flowing through these platforms.
+ 
+Here's how it works.
+ 
+Click on the region on the map (right side) which interests you. The stacked graph on the left then allows you to drill down even further into the region. Move your mouse down the stacked graph to discover more granular detail about specific postcodes such as the average and median amounts lent and received. Finally the bar graph at the top gives you a high level overview of loans funded and received by the various postcodes in the United Kingdom.
+ 
+Go on and have a play. Show yourself the money!
 
 <div id="visualisation">
 	<iframe src="http://iconomical.com/customers/ODI/Beta/" width="960" height="790"> </iframe>
