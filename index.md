@@ -15,5 +15,5 @@ For example, click on the total amount for lending or receiving. The map, now a 
 Go on and have a play. Show yourself the money!
 
 <div id="visualisation">
-	<iframe src="http://iconomical.com/customers/ODI/Beta/" width="960" height="790"> </iframe>
+	<iframe src="http://www.iconomical.com/customers/ODI/P2P/" width="960" height="790"> </iframe>
 </div>
