@@ -10,6 +10,6 @@ menu: bottom
     <p>If you would like to attribute your use of this dataset, please use a link similar to the following: </p>
     <p><a href="http://smtm.preview.labs.theodi.org/rights/" 
        property="odrs:attributionURL">
-        <span property="odrs:attributionText">Peer to Peer lending data provided by Open Data Institute, Zopa, Funding Circle and RateSetter</span>.</a>
+        <span property="odrs:attributionText">Peer-to-peer lending data provided by Open Data Institute, Zopa, Funding Circle and RateSetter</span>.</a>
     </p>
 </div>
