@@ -22,7 +22,7 @@ The weights are derived in a standard fashion: taking the inverse of the number 
 
 ### <span id="statistics">The mean and median in statistics</span>
 
-You may have heard the old *bon mot*: “Bill Gates walks into a bar. On average everyone is a millionaire.” In fact, this would even work with a football stadium. (Do the math: His wealth is reported at $72.7 billion for 2013.)
+You may have heard the old *bon mot*: “Bill Gates walks into a bar. On average everyone is a millionaire.” In fact, this would even work with a football stadium. (Do the math: his wealth is reported at $72.7 billion for 2013.)
 
 The mean, colloquially known as the average, is not robust against outliers. Values which are a lot larger or smaller can seriously distort the mean. This is a problem because often we are interested in the **typical value**. The median is often preferred with financial data, for example income in the UK. Most people earn something between £20,000 and £40,000 per year, so we would consider this the typical value. However, some very successful people such as Wayne Rooney have an income which has one or two more zeros – the mean is skewed upwards unlike the median.
 
