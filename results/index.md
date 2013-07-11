@@ -228,8 +228,9 @@ The P2P market has been growing steadily since its early days. In particular, we
 
 <h3>Counties</h3>
 
-<p>Similarly to regions, we can calculate statistics for English counties. The visualisation on the front page provides further tools to explore the data.</p>
+<p>Similarly to regions, we can calculate statistics for English counties. Table 1.3 shows total amount for lenders and recipients for each English county. The net is calculated as the difference, i.e. lending - receiving. The visualisation on the front page provides further tools to explore the data.</p>
 
+<h6>Table 1.3 Loan amounts for English Counties (in £)</h6>
 <table class="table">
 <thead>
 <tr>
