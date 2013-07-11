@@ -14,7 +14,7 @@ weight: 3
 
 <h6>Table 1.1 Descriptive statistics for lenders and recipients</h6>
 
-<table class="table" style="width:78%; font-size:100%;" >
+<table class="table" style="width:66%; font-size:100%;" >
 <thead>
 <tr>
 <th> </th>
