@@ -17,7 +17,7 @@ weight: 3
 <table class="table">
 <thead>
 <tr>
-<th>in £               </th>
+<th> </th>
 <th class="align-right"> Lender        </th>
 <th class="align-right"> Recipient</th>
 </tr>
@@ -25,18 +25,18 @@ weight: 3
 <tbody>
 <tr>
 <td>Mean loan            </td>
-<td class="align-right">  7,737        </td>
-<td class="align-right">  6,320</td>
+<td class="align-right">  £7,737        </td>
+<td class="align-right">  £6,320</td>
 </tr>
 <tr>
 <td>Median loan          </td>
-<td class="align-right">  1,290        </td>
-<td class="align-right">  4,160</td>
+<td class="align-right">  £1,290        </td>
+<td class="align-right">  £4,160</td>
 </tr>
 <tr>
 <td>Standard deviation   </td>
-<td class="align-right"> 29,369        </td>
-<td class="align-right"> 11,060</td>
+<td class="align-right"> £29,369        </td>
+<td class="align-right"> £11,060</td>
 </tr>
 </tbody>
 </table>
