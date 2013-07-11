@@ -8,9 +8,9 @@ weight: 3
 
 <h3>Overall statistics</h3>
 
-<p>The total amount of P2P loans in the sample was <strong>£378.3 million</strong>. In the data, the UK market from Oct 2010 to May 2013, we can identify 48,891 investors and 59,851 recipients (see Methodology for details and caveats). Table 1.1 shows the average loan and Figure 1.1 and 1.2 the whole distribution across lenders and recipients.</p>
+<p>The total amount of P2P loans in the sample was <strong>£378.3 million</strong>. In the data, the UK market from Oct 2010 to May 2013, we can identify 48,891 lenders and 59,851 recipients (see Methodology for details and caveats). Table 1.1 shows the average loan and Figure 1.1 and 1.2 the whole distribution across lenders and recipients.</p>
 
-<p>The unit of analysis is a loan part. In total there are 13,924,547 loan parts. A borrower who takes out a loan of £2,000 may receive the money from hundreds of different lenders. Vice versa, a lender may subdivide her investment into many loans. A typical (median, see explanation) amount for a loan part is £10. However, in a small number of cases the investment per loan part is substantially larger.</p>
+<p>The unit of analysis is a loan part. In total there are 13,924,547 loan parts. A recipient who takes out a loan of £2,000 may receive the money from hundreds of different lenders. Vice versa, a lender may subdivide her investment into many loans. A typical (median, see explanation) amount for a loan part is £10. However, in a small number of cases the investment per loan part is substantially larger.</p>
 
 <h6>Table 1.1 Descriptive statistics for lenders and recipients</h6>
 
@@ -42,7 +42,7 @@ weight: 3
 </table>
 
 
-<p>The table above speaks a clear language: lenders are much more skewed towards large loan amounts than recipients. The salient difference in mean and median loan values, as well as the large standard deviation, are a hint that a few investors use large sums, whereas most recipients deal with amounts between £3,000 to £6,000. This result makes intuitive sense because investors have more financial freedom than recipients and this is also reflected in the following box plots.</p>
+<p>The table above speaks a clear language: lenders are much more skewed towards large loan amounts than recipients. The salient difference in mean and median loan values, as well as the large standard deviation, are a hint that a few lenders use large sums, whereas most recipients deal with amounts between £3,000 to £6,000. This result makes intuitive sense because lenders have more financial freedom than recipients and this is also reflected in the following box plots.</p>
 
 <h6>Figure 1.1 Box plot for loan amounts of lenders (logarithmic scale)</h6>
 
@@ -63,7 +63,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 
 <h3>Regional flows</h3>
 
-<p>Each loan part has a postcode for the lender and the recipient. Thus, we can calculate regional flows at any level in the UK. Table 1.2 is aggregated on a regional level. Perhaps not surprisingly, London is the biggest investor and the second biggest recipient. Only the South East receives more financial resources from the P2P market.</p>
+<p>Each loan part has a postcode for the lender and the recipient. Thus, we can calculate regional flows at any level in the UK. Table 1.2 is aggregated on a regional level. Perhaps not surprisingly, London is the biggest lender and the second biggest recipient. Only the South East receives more financial resources from the P2P market.</p>
 
 <p>Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see Appendix). However, bear in mind that the regional allocation is, in most cases, <em>not</em> a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisions..</p>
 
@@ -207,7 +207,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 </table>
 
 
-<p>We included some external open data, namely population estimates from the UK census for each of the region. From this we can "normalise" (divide) the regional figures by population. London still tops the list with £12 per person of lending. The differences across regions are more pronounced among investors. The range of lending per person ranges from £1.4 to £11.8 for UK regions, whereas the range for recipients only goes from £3.9 to £7.3 per person. Hence, there is substantially more lending in London and the South of the UK, whilst recipients are more evenly distributed across the country.
+<p>We included some external open data, namely population estimates from the UK census for each of the region. From this we can "normalise" (divide) the regional figures by population. London still tops the list with £12 per person of lending. The differences across regions are more pronounced among lenders. The range of lending per person ranges from £1.4 to £11.8 for UK regions, whereas the range for recipients only goes from £3.9 to £7.3 per person. Hence, there is substantially more lending in London and the South of the UK, whilst recipients are more evenly distributed across the country.
 </p>
 
 <h3>Loan rates and term per region</h3>
@@ -216,7 +216,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 
 <p>In both cases, loan rates and term, we find that the variation between region is surprisingly low. On average loans are priced between 6.1% and 6.7% and have a length of 37 to 41 months.</p>
 
-<p>There is no salient pattern for recipients when it comes to interest rates. The lowest rates for investors, on the other hand, are all in the East of England. This fits with the fact that those loans are also slightly shorter compared to the rest of the UK.</p>
+<p>There is no salient pattern for recipients when it comes to interest rates. The lowest rates for lenders, on the other hand, are all in the East of England. This fits with the fact that those loans are also slightly shorter compared to the rest of the UK.</p>
 
 <h6>Figure 1.3 Histogram of loan rates for each regional flow</h6>
 
