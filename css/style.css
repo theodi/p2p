@@ -25,3 +25,7 @@ iframe {
 #tabs li {
 	margin-bottom: -1px;
 }
+
+td.align-right, th.align-right  {
+	text-align: right;
+}
