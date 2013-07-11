@@ -3,10 +3,8 @@ layout: default
 title: Results
 link: /results/
 menu: top
-weight: 5
+weight: 3
 ---
-
-<h2>Results</h2>
 
 <h3>Overall statistics</h3>
 
@@ -53,6 +51,21 @@ weight: 5
 <h6>Figure 1.2 Box plot for loan amounts of recipients (logarithmic scale)</h6>
 
 <p><img src="/img/boxplot-recipients.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+
+<h3>Growth over time</h3>
+
+The P2P market has been growing steadily since its early days. In particular, we can compare the number of lenders and recipients at the beginning of the period (end of 2010) with the end of period (May 2013). The following maps plot the individual postcodes of lenders and recipients. Notice how there are no country boundaries and the maps emerge entirely from the postcodes. 
+
+<h6>Map 1.1 Growth of lenders over time</h6>
+<p><img src="/img/maps/p2p-map-lenders-2010-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+<p><img src="/img/maps/p2p-map-lenders-2011-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+<p><img src="/img/maps/p2p-map-lenders-2013-05-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+
+<h6>Map 1.1 Growth of recipients over time</h6>
+<p><img src="/img/maps/p2p-map-recipients-2010-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+<p><img src="/img/maps/p2p-map-recipients-2011-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+<p><img src="/img/maps/p2p-map-recipients-2013-05-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+
 
 <h3>Regional flows</h3>
 
@@ -202,7 +215,7 @@ weight: 5
 
 <p>We included some external open data, namely population estimates from the UK census for each of the region. From this we can "normalise" (divide) the regional figures by population. London still tops the list with £12 per person. The differences across regions are more pronounced among investors. In fact, across the UK regions the P2P loans spread at around £5-7 per person (with the exception of Northern Ireland where it's only £4).</p>
 
-<h4>Loan rates and term per region</h4>
+<h3>Loan rates and term per region</h3>
 
 <p>The UK has 12 regions and because a region can lend itself money there are a total of 144 possible combination for different flows. For each tuple, e.g. London lending to the South East, we calculated the average loan rate and average length (see weights for details).</p>
 
@@ -399,6 +412,8 @@ weight: 5
 
 
 <h2><span id="appendix">Appendix</span></h2>
+
+All tables can be downloaded as a csv-file in the "Get the data" section.
 
 <h6>Table A.1 Detailed regional flows within the UK</h6>
 

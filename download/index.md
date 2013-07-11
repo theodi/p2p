@@ -3,7 +3,7 @@ layout: default
 title: Get the data
 link: /download/
 menu: top
-weight: 4
+weight: 5
 ---
 
 <div typeof="dcat:Catalog" resource="http://p2p.labs.theodi.org/download">
