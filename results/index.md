@@ -57,15 +57,9 @@ weight: 3
 The P2P market has been growing steadily since its early days. In particular, we can compare the number of lenders and recipients at the beginning of the period (end of 2010) with the end of period (May 2013). The following maps plot the individual postcodes of lenders and recipients. Notice how there are no country boundaries and the maps emerge entirely from the postcodes. 
 
 <h6>Map 1.1 Growth of lenders over time</h6>
-<p><img src="/img/maps/p2p-map-lenders-2010-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
-<p><img src="/img/maps/p2p-map-lenders-2011-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
-<p><img src="/img/maps/p2p-map-lenders-2013-05-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
-
-<h6>Map 1.1 Growth of recipients over time</h6>
-<p><img src="/img/maps/p2p-map-recipients-2010-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
-<p><img src="/img/maps/p2p-map-recipients-2011-12-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
-<p><img src="/img/maps/p2p-map-recipients-2013-05-31.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
-
+<p><img src="/img/maps/p2p-map-lenders.gif" title="Growth of Lenders" alt="growth of lenders"/></p>
+<h6>Map 1.2 Growth of recipients over time</h6>
+<p><img src="/img/maps/p2p-map-recipients.gif" title="Growth of Recipients" alt="growth of recipients" /></p>
 
 <h3>Regional flows</h3>
 
@@ -213,7 +207,8 @@ The P2P market has been growing steadily since its early days. In particular, we
 </table>
 
 
-<p>We included some external open data, namely population estimates from the UK census for each of the region. From this we can "normalise" (divide) the regional figures by population. London still tops the list with £12 per person. The differences across regions are more pronounced among investors. In fact, across the UK regions the P2P loans spread at around £5-7 per person (with the exception of Northern Ireland where it's only £4).</p>
+<p>We included some external open data, namely population estimates from the UK census for each of the region. From this we can "normalise" (divide) the regional figures by population. London still tops the list with £12 per person of lending. The differences across regions are more pronounced among investors. The range of lending per person ranges from £1.4 to £11.8 for UK regions, whereas the range for recipients only goes from £3.9 to £7.3 per person. Hence, there is substantially more lending in London and the South of the UK, whilst recipients are more evenly distributed across the country.
+</p>
 
 <h3>Loan rates and term per region</h3>
 
