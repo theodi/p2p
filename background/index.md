@@ -3,7 +3,7 @@ layout: default
 title: Background
 link: /background/
 menu: top
-weight: 1
+weight: 2
 ---
 
 ### Opening up Big Data in Finance
