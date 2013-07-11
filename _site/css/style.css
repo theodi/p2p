@@ -7,6 +7,14 @@ h1 a:hover {
 	text-decoration: none;
 }
 
+h6 {
+	font-size: 100%;
+}
+
+p {
+	text-align:justify;
+}
+
 #visualisation {
 	width: 960px;
 }
@@ -29,3 +37,10 @@ iframe {
 td.align-right, th.align-right  {
 	text-align: right;
 }
+
+<script type="text/javascript">
+$(function(){
+  $("table.alternate_color tr:even").addClass("d0");
+   $("table.alternate_color tr:odd").addClass("d1");
+});
+</script>

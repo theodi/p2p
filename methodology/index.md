@@ -20,7 +20,7 @@ To calculate regional or area statistics, which are not counts or sums, we have 
 
 The weights are derived in a standard fashion: taking the inverse of the number of loan parts per loan and adjusting them to a mean of 1. The weights are well-behaved with a skewed distribution towards small weights because of loans that are highly syndicated. 
 
-### <span id="statistics">The mean and median in statistics</span>
+## <span id="statistics">The mean and median in statistics</span>
 
 You may have heard the old *bon mot*: “Bill Gates walks into a bar. On average everyone is a millionaire.” In fact, this would even work with a football stadium. (Do the math: his wealth is reported at $72.7 billion for 2013.)
 

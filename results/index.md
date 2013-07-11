@@ -14,7 +14,7 @@ weight: 3
 
 <h6>Table 1.1 Descriptive statistics for lenders and recipients</h6>
 
-<table class="table">
+<table class="table" style="width:78%; font-size:100%;" >
 <thead>
 <tr>
 <th> </th>
@@ -24,17 +24,17 @@ weight: 3
 </thead>
 <tbody>
 <tr>
-<td>Mean loan            </td>
+<td class="align-left">Mean loan            </td>
 <td class="align-right">  £7,737        </td>
 <td class="align-right">  £6,320</td>
 </tr>
 <tr>
-<td>Median loan          </td>
+<td class="align-left">Median loan          </td>
 <td class="align-right">  £1,290        </td>
 <td class="align-right">  £4,160</td>
 </tr>
 <tr>
-<td>Standard deviation   </td>
+<td class="align-left">Standard deviation   </td>
 <td class="align-right"> £29,369        </td>
 <td class="align-right"> £11,060</td>
 </tr>
@@ -84,7 +84,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 </thead>
 <tbody>
 <tr>
-<td> London                   </td>
+<td class="align-right"> London                   </td>
 <td class="align-right">  96,535,000  </td>
 <td class="align-right">  48,725,000  </td>
 <td class="align-right">  47,810,000  </td>
@@ -94,7 +94,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 5.8  </td>
 </tr>
 <tr>
-<td> South East               </td>
+<td class="align-right"> South East               </td>
 <td class="align-right">  76,353,000  </td>
 <td class="align-right">  57,602,000  </td>
 <td class="align-right">  18,751,000  </td>
@@ -104,7 +104,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 2.2  </td>
 </tr>
 <tr>
-<td> South West               </td>
+<td class="align-right"> South West               </td>
 <td class="align-right">  41,144,000  </td>
 <td class="align-right">  32,076,000  </td>
 <td class="align-right">  9,068,000   </td>
@@ -114,7 +114,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 1.7  </td>
 </tr>
 <tr>
-<td> East of England          </td>
+<td class="align-right"> East of England          </td>
 <td class="align-right">  37,243,000  </td>
 <td class="align-right">  29,748,000  </td>
 <td class="align-right">  7,495,000   </td>
@@ -124,7 +124,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 1.3  </td>
 </tr>
 <tr>
-<td> West Midlands            </td>
+<td class="align-right"> West Midlands            </td>
 <td class="align-right">  21,207,000  </td>
 <td class="align-right">  29,978,000  </td>
 <td class="align-right"> -8,771,000   </td>
@@ -134,7 +134,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -1.6 </td>
 </tr>
 <tr>
-<td> East Midlands            </td>
+<td class="align-right"> East Midlands            </td>
 <td class="align-right">  15,665,000  </td>
 <td class="align-right">  25,239,000  </td>
 <td class="align-right"> -9,574,000   </td>
@@ -144,7 +144,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.1 </td>
 </tr>
 <tr>
-<td> North West               </td>
+<td class="align-right"> North West               </td>
 <td class="align-right">  26,803,000  </td>
 <td class="align-right">  42,434,000  </td>
 <td class="align-right"> -15,631,000  </td>
@@ -154,7 +154,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.2 </td>
 </tr>
 <tr>
-<td> Yorkshire and The Humber </td>
+<td class="align-right"> Yorkshire and The Humber </td>
 <td class="align-right">  20,584,000  </td>
 <td class="align-right">  32,756,000  </td>
 <td class="align-right"> -12,172,000  </td>
@@ -164,7 +164,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.3 </td>
 </tr>
 <tr>
-<td> Northern Ireland         </td>
+<td class="align-right"> Northern Ireland         </td>
 <td class="align-right">  2,527,000   </td>
 <td class="align-right">  6,993,000   </td>
 <td class="align-right"> -4,466,000   </td>
@@ -174,7 +174,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.5 </td>
 </tr>
 <tr>
-<td> Scotland                 </td>
+<td class="align-right"> Scotland                 </td>
 <td class="align-right">  19,219,000  </td>
 <td class="align-right">  33,108,000  </td>
 <td class="align-right"> -13,889,000  </td>
@@ -184,7 +184,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.6 </td>
 </tr>
 <tr>
-<td> Wales                    </td>
+<td class="align-right"> Wales                    </td>
 <td class="align-right">  12,880,000  </td>
 <td class="align-right">  22,355,000  </td>
 <td class="align-right"> -9,475,000   </td>
@@ -194,7 +194,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -3.1 </td>
 </tr>
 <tr>
-<td> North East               </td>
+<td class="align-right"> North East               </td>
 <td class="align-right">  8,104,000   </td>
 <td class="align-right">  17,250,000  </td>
 <td class="align-right"> -9,146,000   </td>
@@ -434,212 +434,212 @@ All tables can be downloaded as a csv-file in the "Get the data" section.
 </thead>
 <tbody>
 <tr>
-<td> East Midlands            </td>
-<td>  1,082,239      </td>
-<td>  1,253,465        </td>
-<td>  1,931,601   </td>
-<td>  717,833     </td>
-<td>  1,734,419   </td>
-<td>  313,874           </td>
-<td>  1,382,597   </td>
-<td>  2,345,638   </td>
-<td>  1,358,018   </td>
-<td>  942,027     </td>
-<td>  1,253,462      </td>
-<td>  1,350,242                 </td>
-<td>  15,665,415   </td>
+<td class="align-left"> East Midlands            </td>
+<td class="align-right">  1,082,239      </td>
+<td class="align-right">  1,253,465        </td>
+<td class="align-right">  1,931,601   </td>
+<td class="align-right">  717,833     </td>
+<td class="align-right">  1,734,419   </td>
+<td class="align-right">  313,874           </td>
+<td class="align-right">  1,382,597   </td>
+<td class="align-right">  2,345,638   </td>
+<td class="align-right">  1,358,018   </td>
+<td class="align-right">  942,027     </td>
+<td class="align-right">  1,253,462      </td>
+<td class="align-right">  1,350,242                 </td>
+<td class="align-right">  15,665,415   </td>
 </tr>
 <tr>
-<td> East of England          </td>
-<td>  2,540,988      </td>
-<td>  3,017,567        </td>
-<td>  4,882,314   </td>
-<td>  1,694,655   </td>
-<td>  4,176,652   </td>
-<td>  717,684           </td>
-<td>  3,265,778   </td>
-<td>  5,571,834   </td>
-<td>  3,144,042   </td>
-<td>  2,179,792   </td>
-<td>  2,906,871      </td>
-<td>  3,144,891                 </td>
-<td>  37,243,068   </td>
+<td class="align-left"> East of England          </td>
+<td class="align-right">  2,540,988      </td>
+<td class="align-right">  3,017,567        </td>
+<td class="align-right">  4,882,314   </td>
+<td class="align-right">  1,694,655   </td>
+<td class="align-right">  4,176,652   </td>
+<td class="align-right">  717,684           </td>
+<td class="align-right">  3,265,778   </td>
+<td class="align-right">  5,571,834   </td>
+<td class="align-right">  3,144,042   </td>
+<td class="align-right">  2,179,792   </td>
+<td class="align-right">  2,906,871      </td>
+<td class="align-right">  3,144,891                 </td>
+<td class="align-right">  37,243,068   </td>
 </tr>
 <tr>
-<td> London                   </td>
-<td>  6,459,724      </td>
-<td>  7,583,354        </td>
-<td>  12,715,278  </td>
-<td>  4,441,576   </td>
-<td>  10,746,336  </td>
-<td>  1,779,919         </td>
-<td>  8,368,098   </td>
-<td>  14,754,875  </td>
-<td>  8,026,654   </td>
-<td>  5,752,434   </td>
-<td>  7,598,439      </td>
-<td>  8,308,033                 </td>
-<td>  96,534,720   </td>
+<td class="align-left"> London                   </td>
+<td class="align-right">  6,459,724      </td>
+<td class="align-right">  7,583,354        </td>
+<td class="align-right">  12,715,278  </td>
+<td class="align-right">  4,441,576   </td>
+<td class="align-right">  10,746,336  </td>
+<td class="align-right">  1,779,919         </td>
+<td class="align-right">  8,368,098   </td>
+<td class="align-right">  14,754,875  </td>
+<td class="align-right">  8,026,654   </td>
+<td class="align-right">  5,752,434   </td>
+<td class="align-right">  7,598,439      </td>
+<td class="align-right">  8,308,033                 </td>
+<td class="align-right">  96,534,720   </td>
 </tr>
 <tr>
-<td> North East               </td>
-<td>  528,270        </td>
-<td>  614,205          </td>
-<td>  1,071,738   </td>
-<td>  377,020     </td>
-<td>  906,671     </td>
-<td>  143,762           </td>
-<td>  693,511     </td>
-<td>  1,243,873   </td>
-<td>  706,912     </td>
-<td>  499,775     </td>
-<td>  628,509        </td>
-<td>  690,172                   </td>
-<td>  8,104,418    </td>
+<td class="align-left"> North East               </td>
+<td class="align-right">  528,270        </td>
+<td class="align-right">  614,205          </td>
+<td class="align-right">  1,071,738   </td>
+<td class="align-right">  377,020     </td>
+<td class="align-right">  906,671     </td>
+<td class="align-right">  143,762           </td>
+<td class="align-right">  693,511     </td>
+<td class="align-right">  1,243,873   </td>
+<td class="align-right">  706,912     </td>
+<td class="align-right">  499,775     </td>
+<td class="align-right">  628,509        </td>
+<td class="align-right">  690,172                   </td>
+<td class="align-right">  8,104,418    </td>
 </tr>
 <tr>
-<td> North West               </td>
-<td>  1,773,710      </td>
-<td>  2,111,984        </td>
-<td>  3,452,080   </td>
-<td>  1,215,997   </td>
-<td>  3,034,572   </td>
-<td>  534,488           </td>
-<td>  2,364,109   </td>
-<td>  4,192,762   </td>
-<td>  2,198,661   </td>
-<td>  1,528,435   </td>
-<td>  2,074,845      </td>
-<td>  2,321,100                 </td>
-<td>  26,802,743   </td>
+<td class="align-left"> North West               </td>
+<td class="align-right">  1,773,710      </td>
+<td class="align-right">  2,111,984        </td>
+<td class="align-right">  3,452,080   </td>
+<td class="align-right">  1,215,997   </td>
+<td class="align-right">  3,034,572   </td>
+<td class="align-right">  534,488           </td>
+<td class="align-right">  2,364,109   </td>
+<td class="align-right">  4,192,762   </td>
+<td class="align-right">  2,198,661   </td>
+<td class="align-right">  1,528,435   </td>
+<td class="align-right">  2,074,845      </td>
+<td class="align-right">  2,321,100                 </td>
+<td class="align-right">  26,802,743   </td>
 </tr>
 <tr>
-<td> Northern Ireland         </td>
-<td>  167,270        </td>
-<td>  209,193          </td>
-<td>  320,520     </td>
-<td>  112,201     </td>
-<td>  282,502     </td>
-<td>  50,969            </td>
-<td>  214,199     </td>
-<td>  378,503     </td>
-<td>  210,116     </td>
-<td>  155,717     </td>
-<td>  207,733        </td>
-<td>  217,744                   </td>
-<td>  2,526,667    </td>
+<td class="align-left"> Northern Ireland         </td>
+<td class="align-right">  167,270        </td>
+<td class="align-right">  209,193          </td>
+<td class="align-right">  320,520     </td>
+<td class="align-right">  112,201     </td>
+<td class="align-right">  282,502     </td>
+<td class="align-right">  50,969            </td>
+<td class="align-right">  214,199     </td>
+<td class="align-right">  378,503     </td>
+<td class="align-right">  210,116     </td>
+<td class="align-right">  155,717     </td>
+<td class="align-right">  207,733        </td>
+<td class="align-right">  217,744                   </td>
+<td class="align-right">  2,526,667    </td>
 </tr>
 <tr>
-<td> Scotland                 </td>
-<td>  1,303,323      </td>
-<td>  1,486,973        </td>
-<td>  2,376,384   </td>
-<td>  853,753     </td>
-<td>  2,162,910   </td>
-<td>  354,436           </td>
-<td>  1,719,886   </td>
-<td>  2,946,097   </td>
-<td>  1,649,782   </td>
-<td>  1,132,434   </td>
-<td>  1,529,130      </td>
-<td>  1,703,767                 </td>
-<td>  19,218,875   </td>
+<td class="align-left"> Scotland                 </td>
+<td class="align-right">  1,303,323      </td>
+<td class="align-right">  1,486,973        </td>
+<td class="align-right">  2,376,384   </td>
+<td class="align-right">  853,753     </td>
+<td class="align-right">  2,162,910   </td>
+<td class="align-right">  354,436           </td>
+<td class="align-right">  1,719,886   </td>
+<td class="align-right">  2,946,097   </td>
+<td class="align-right">  1,649,782   </td>
+<td class="align-right">  1,132,434   </td>
+<td class="align-right">  1,529,130      </td>
+<td class="align-right">  1,703,767                 </td>
+<td class="align-right">  19,218,875   </td>
 </tr>
 <tr>
-<td> South East               </td>
-<td>  4,995,008      </td>
-<td>  6,017,186        </td>
-<td>  9,704,289   </td>
-<td>  3,501,018   </td>
-<td>  8,535,475   </td>
-<td>  1,390,057         </td>
-<td>  6,752,562   </td>
-<td>  11,621,726  </td>
-<td>  6,602,483   </td>
-<td>  4,471,171   </td>
-<td>  6,026,293      </td>
-<td>  6,735,416                 </td>
-<td>  76,352,684   </td>
+<td class="align-left"> South East               </td>
+<td class="align-right">  4,995,008      </td>
+<td class="align-right">  6,017,186        </td>
+<td class="align-right">  9,704,289   </td>
+<td class="align-right">  3,501,018   </td>
+<td class="align-right">  8,535,475   </td>
+<td class="align-right">  1,390,057         </td>
+<td class="align-right">  6,752,562   </td>
+<td class="align-right">  11,621,726  </td>
+<td class="align-right">  6,602,483   </td>
+<td class="align-right">  4,471,171   </td>
+<td class="align-right">  6,026,293      </td>
+<td class="align-right">  6,735,416                 </td>
+<td class="align-right">  76,352,684   </td>
 </tr>
 <tr>
-<td> South West               </td>
-<td>  2,750,730      </td>
-<td>  3,272,974        </td>
-<td>  5,222,877   </td>
-<td>  1,834,053   </td>
-<td>  4,647,748   </td>
-<td>  748,696           </td>
-<td>  3,603,066   </td>
-<td>  6,166,448   </td>
-<td>  3,584,220   </td>
-<td>  2,412,801   </td>
-<td>  3,310,944      </td>
-<td>  3,589,759                 </td>
-<td>  41,144,316   </td>
+<td class="align-left"> South West               </td>
+<td class="align-right">  2,750,730      </td>
+<td class="align-right">  3,272,974        </td>
+<td class="align-right">  5,222,877   </td>
+<td class="align-right">  1,834,053   </td>
+<td class="align-right">  4,647,748   </td>
+<td class="align-right">  748,696           </td>
+<td class="align-right">  3,603,066   </td>
+<td class="align-right">  6,166,448   </td>
+<td class="align-right">  3,584,220   </td>
+<td class="align-right">  2,412,801   </td>
+<td class="align-right">  3,310,944      </td>
+<td class="align-right">  3,589,759                 </td>
+<td class="align-right">  41,144,316   </td>
 </tr>
 <tr>
-<td> Wales                    </td>
-<td>  858,358        </td>
-<td>  966,830          </td>
-<td>  1,595,339   </td>
-<td>  583,999     </td>
-<td>  1,462,615   </td>
-<td>  220,910           </td>
-<td>  1,125,068   </td>
-<td>  1,947,737   </td>
-<td>  1,131,198   </td>
-<td>  789,822     </td>
-<td>  1,036,950      </td>
-<td>  1,160,819                 </td>
-<td>  12,879,645   </td>
+<td class="align-left"> Wales                    </td>
+<td class="align-right">  858,358        </td>
+<td class="align-right">  966,830          </td>
+<td class="align-right">  1,595,339   </td>
+<td class="align-right">  583,999     </td>
+<td class="align-right">  1,462,615   </td>
+<td class="align-right">  220,910           </td>
+<td class="align-right">  1,125,068   </td>
+<td class="align-right">  1,947,737   </td>
+<td class="align-right">  1,131,198   </td>
+<td class="align-right">  789,822     </td>
+<td class="align-right">  1,036,950      </td>
+<td class="align-right">  1,160,819                 </td>
+<td class="align-right">  12,879,645   </td>
 </tr>
 <tr>
-<td> West Midlands            </td>
-<td>  1,446,493      </td>
-<td>  1,614,029        </td>
-<td>  2,763,484   </td>
-<td>  940,242     </td>
-<td>  2,388,386   </td>
-<td>  371,647           </td>
-<td>  1,873,382   </td>
-<td>  3,277,501   </td>
-<td>  1,767,179   </td>
-<td>  1,264,677   </td>
-<td>  1,754,851      </td>
-<td>  1,745,311                 </td>
-<td>  21,207,182   </td>
+<td class="align-left"> West Midlands            </td>
+<td class="align-right">  1,446,493      </td>
+<td class="align-right">  1,614,029        </td>
+<td class="align-right">  2,763,484   </td>
+<td class="align-right">  940,242     </td>
+<td class="align-right">  2,388,386   </td>
+<td class="align-right">  371,647           </td>
+<td class="align-right">  1,873,382   </td>
+<td class="align-right">  3,277,501   </td>
+<td class="align-right">  1,767,179   </td>
+<td class="align-right">  1,264,677   </td>
+<td class="align-right">  1,754,851      </td>
+<td class="align-right">  1,745,311                 </td>
+<td class="align-right">  21,207,182   </td>
 </tr>
 <tr>
-<td> Yorkshire and The Humber </td>
-<td>  1,333,135      </td>
-<td>  1,600,036        </td>
-<td>  2,688,715   </td>
-<td>  977,471     </td>
-<td>  2,355,817   </td>
-<td>  366,425           </td>
-<td>  1,745,760   </td>
-<td>  3,154,933   </td>
-<td>  1,697,169   </td>
-<td>  1,226,066   </td>
-<td>  1,649,746      </td>
-<td>  1,788,410                 </td>
-<td>  20,583,683   </td>
+<td class="align-left"> Yorkshire and The Humber </td>
+<td class="align-right">  1,333,135      </td>
+<td class="align-right">  1,600,036        </td>
+<td class="align-right">  2,688,715   </td>
+<td class="align-right">  977,471     </td>
+<td class="align-right">  2,355,817   </td>
+<td class="align-right">  366,425           </td>
+<td class="align-right">  1,745,760   </td>
+<td class="align-right">  3,154,933   </td>
+<td class="align-right">  1,697,169   </td>
+<td class="align-right">  1,226,066   </td>
+<td class="align-right">  1,649,746      </td>
+<td class="align-right">  1,788,410                 </td>
+<td class="align-right">  20,583,683   </td>
 </tr>
 <tr>
-<td> Grand Total              </td>
-<td>  25,239,248     </td>
-<td>  29,747,796       </td>
-<td>  48,724,619  </td>
-<td>  17,249,818  </td>
-<td>  42,434,103  </td>
-<td>  6,992,867         </td>
-<td>  33,108,016  </td>
-<td>  57,601,927  </td>
-<td>  32,076,434  </td>
-<td>  22,355,151  </td>
-<td>  29,977,773     </td>
-<td>  32,755,664                </td>
-<td>  378,263,416  </td>
+<td class="align-left"> Grand Total              </td>
+<td class="align-right">  25,239,248     </td>
+<td class="align-right">  29,747,796       </td>
+<td class="align-right">  48,724,619  </td>
+<td class="align-right">  17,249,818  </td>
+<td class="align-right">  42,434,103  </td>
+<td class="align-right">  6,992,867         </td>
+<td class="align-right">  33,108,016  </td>
+<td class="align-right">  57,601,927  </td>
+<td class="align-right">  32,076,434  </td>
+<td class="align-right">  22,355,151  </td>
+<td class="align-right">  29,977,773     </td>
+<td class="align-right">  32,755,664                </td>
+<td class="align-right">  378,263,416  </td>
 </tr>
 </tbody>
 </table>

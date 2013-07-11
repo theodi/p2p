@@ -11,6 +11,10 @@ h6 {
 	font-size: 100%;
 }
 
+p {
+	text-align:justify;
+}
+
 #visualisation {
 	width: 960px;
 }
@@ -33,3 +37,4 @@ iframe {
 td.align-right, th.align-right  {
 	text-align: right;
 }
+
