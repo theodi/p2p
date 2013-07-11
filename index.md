@@ -1,14 +1,16 @@
 ---
 layout: default
-title: Home
+title: Explore
 link: /
 ---
 
-This site provides the most comprehensive snapshot to date of the UK peer-to-peer lending (p2p) market. Using data from the three biggest p2p platforms in the UK (Zopa, RateSetter and Funding Circle) we highlight the regional geography of lending in the UK. The visualisations below provide fascinating insight on which regions are net lenders and recipients of funds flowing through these platforms.
+This site provides the most comprehensive snapshot to date of the UK peer-to-peer lending (P2P) market. Using data from the three biggest P2P platforms in the UK (Zopa, RateSetter and Funding Circle) we highlight the regional geography of lending in the UK.
  
-Here's how it works.
+**Here's how the visualisation works.**
  
 Click on the region on the map (right side) which interests you. The stacked graph on the left then allows you to drill down even further into the region. Move your mouse down the stacked graph to discover more granular detail about specific postcodes such as the average and median amounts lent and received. Finally the bar graph at the top gives you a high level overview of loans funded and received by the various postcodes in the United Kingdom.
+
+For example, click on the total amount of lending and receiving. The map, now a cartogram, shows you how the loans are spread across the UK.
  
 Go on and have a play. Show yourself the money!
 
