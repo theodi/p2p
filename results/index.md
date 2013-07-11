@@ -14,7 +14,7 @@ weight: 3
 
 <h6>Table 1.1 Descriptive statistics for lenders and recipients</h6>
 
-<table class="table" style="width:66%; font-size:100%;" >
+<table id="overall-stats" class="table">
 <thead>
 <tr>
 <th> </th>
@@ -84,7 +84,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 </thead>
 <tbody>
 <tr>
-<td class="align-right"> London                   </td>
+<td> London                   </td>
 <td class="align-right">  96,535,000  </td>
 <td class="align-right">  48,725,000  </td>
 <td class="align-right">  47,810,000  </td>
@@ -94,7 +94,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 5.8  </td>
 </tr>
 <tr>
-<td class="align-right"> South East               </td>
+<td> South East               </td>
 <td class="align-right">  76,353,000  </td>
 <td class="align-right">  57,602,000  </td>
 <td class="align-right">  18,751,000  </td>
@@ -104,7 +104,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 2.2  </td>
 </tr>
 <tr>
-<td class="align-right"> South West               </td>
+<td> South West               </td>
 <td class="align-right">  41,144,000  </td>
 <td class="align-right">  32,076,000  </td>
 <td class="align-right">  9,068,000   </td>
@@ -114,7 +114,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 1.7  </td>
 </tr>
 <tr>
-<td class="align-right"> East of England          </td>
+<td> East of England          </td>
 <td class="align-right">  37,243,000  </td>
 <td class="align-right">  29,748,000  </td>
 <td class="align-right">  7,495,000   </td>
@@ -124,7 +124,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> 1.3  </td>
 </tr>
 <tr>
-<td class="align-right"> West Midlands            </td>
+<td> West Midlands            </td>
 <td class="align-right">  21,207,000  </td>
 <td class="align-right">  29,978,000  </td>
 <td class="align-right"> -8,771,000   </td>
@@ -134,7 +134,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -1.6 </td>
 </tr>
 <tr>
-<td class="align-right"> East Midlands            </td>
+<td> East Midlands            </td>
 <td class="align-right">  15,665,000  </td>
 <td class="align-right">  25,239,000  </td>
 <td class="align-right"> -9,574,000   </td>
@@ -144,7 +144,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.1 </td>
 </tr>
 <tr>
-<td class="align-right"> North West               </td>
+<td> North West               </td>
 <td class="align-right">  26,803,000  </td>
 <td class="align-right">  42,434,000  </td>
 <td class="align-right"> -15,631,000  </td>
@@ -154,7 +154,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.2 </td>
 </tr>
 <tr>
-<td class="align-right"> Yorkshire and The Humber </td>
+<td> Yorkshire and The Humber </td>
 <td class="align-right">  20,584,000  </td>
 <td class="align-right">  32,756,000  </td>
 <td class="align-right"> -12,172,000  </td>
@@ -164,7 +164,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.3 </td>
 </tr>
 <tr>
-<td class="align-right"> Northern Ireland         </td>
+<td> Northern Ireland         </td>
 <td class="align-right">  2,527,000   </td>
 <td class="align-right">  6,993,000   </td>
 <td class="align-right"> -4,466,000   </td>
@@ -174,7 +174,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.5 </td>
 </tr>
 <tr>
-<td class="align-right"> Scotland                 </td>
+<td> Scotland                 </td>
 <td class="align-right">  19,219,000  </td>
 <td class="align-right">  33,108,000  </td>
 <td class="align-right"> -13,889,000  </td>
@@ -184,7 +184,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -2.6 </td>
 </tr>
 <tr>
-<td class="align-right"> Wales                    </td>
+<td> Wales                    </td>
 <td class="align-right">  12,880,000  </td>
 <td class="align-right">  22,355,000  </td>
 <td class="align-right"> -9,475,000   </td>
@@ -194,7 +194,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <td class="align-right"> -3.1 </td>
 </tr>
 <tr>
-<td class="align-right"> North East               </td>
+<td> North East               </td>
 <td class="align-right">  8,104,000   </td>
 <td class="align-right">  17,250,000  </td>
 <td class="align-right"> -9,146,000   </td>

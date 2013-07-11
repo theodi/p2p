@@ -38,3 +38,15 @@ td.align-right, th.align-right  {
 	text-align: right;
 }
 
+.table td {
+	padding: 2px;
+}
+
+#overall-stats {
+	width: 66%; 
+	font-size: 100%;
+}
+
+#overall-stats td {
+	padding:8px;
+}

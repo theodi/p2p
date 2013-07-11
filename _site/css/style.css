@@ -38,9 +38,15 @@ td.align-right, th.align-right  {
 	text-align: right;
 }
 
-<script type="text/javascript">
-$(function(){
-  $("table.alternate_color tr:even").addClass("d0");
-   $("table.alternate_color tr:odd").addClass("d1");
-});
-</script>
+.table td {
+	padding: 2px;
+}
+
+#overall-stats {
+	width: 66%; 
+	font-size: 100%;
+}
+
+#overall-stats td {
+	padding:8px;
+}
