@@ -10,7 +10,7 @@ This site provides the most comprehensive snapshot to date of the UK peer-to-pee
 	<iframe src="http://www.iconomical.com/customers/ODI/P2P/" width="960" height="790"> </iframe>
 </div>
  
-**Here's how the visualisation works.**
+**Here's how the visualisation works:**
  
 Click on the region on the map (right side) which interests you. The stacked graph on the left then allows you to drill down even further into the region. Move your mouse down the stacked graph to discover more granular detail such as the average and median amounts lent and received. Finally the bar graph at the top gives you a high level overview of loans funded and received by the postcode areas for all regions in the UK.
 

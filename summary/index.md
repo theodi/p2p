@@ -10,7 +10,7 @@ weight: 1
 
 Key differences in UK regional activity from the report include:
 
-* Four regions have a positive balance, i.e. they invest more than they receive. All four regions, London, South East, South West and the East of England, lie in the South of the UK.
+* Four regions invest more than they receive. All four regions, London, South East, South West and the East of England, lie in the South of the UK.
 * The range of lending per person ranges from £1.4 to £11.8 for UK regions, whereas the range for recipients only goes from £3.9 to £7.3 per person. Scotland, the North East and the North West have similar statistics for £ received per person than the South of the UK. Hence, there is substantially **more lending in London and the South of the UK**, whilst **recipients are evenly distributed** across the country. 
 * **London** is the biggest investor and the second biggest recipient in absolute terms with £96.5m and £48.7m respectively. Only the South East receives more financial resources from the P2P market (£57.6m).
 * Looking at the figures on a **county** level shows that the top three net lenders (lending - receiving loans) in England are Surrey (+ 7.4m), Buckinghamshire (+ £4.6m) and Cambridgeshire (+ 4.0m). On the other hand, the biggest investments, or net recipients, happen in Staffordshire (- £3.1m), Nottinghamshire (- £3.2m) and Lancashire (- £2.2m).
