@@ -430,7 +430,7 @@ weight: 5
 
 <div class='open-data-certificate'>
 <style>@import url(https://certificates.theodi.org/assets/badge.css);</style>
-<a href="http://certificates.theodi.org/certificates/83"><img alt="Pilot_level_badge" src="https://certificates.theodi.org/assets/badges/pilot_level_badge.png" /></a>
+<a href="http://certificates.theodi.org/certificates/96"><img alt="Pilot_level_badge" src="https://certificates.theodi.org/assets/badges/pilot_level_badge.png" /></a>
 <ul class='open-data-certificate-details'>
 <li>
 <span>Pilot Open Data Certificate (beta)</span>
@@ -442,7 +442,7 @@ weight: 5
 <span>Peer to Peer lending statistics</span>
 </li>
 <li>
-<span>awarded 3 Jul 2013</span>
+<span>awarded 10 Jul 2013</span>
 </li>
 </ul>
 </div>
