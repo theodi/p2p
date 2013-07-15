@@ -6,7 +6,7 @@ menu: top
 weight: 1
 ---
 
-*Show me the Money: Opening up Big Data in Finance* provides the most comprehensive snapshot to date of the £378m UK peer-to-peer (P2P) lending market since October 2010. Using *open data* from the three biggest P2P businesses in the UK (Zopa, RateSetter and Funding Circle) the report focuses on the regional geography of lending in the UK and is able to provide a fascinating insight into which regions are net creditors and recipients. It is the first time financial data has been published with an open data certificate, which includes an open licence.
+*Show me the Money: Opening up Big Data in Finance* provides the most comprehensive snapshot to date of the £378m UK peer-to-peer (P2P) lending market since October 2010. Using *open data* from the three biggest P2P businesses in the UK (Zopa, RateSetter and Funding Circle) the report focuses on the regional geography of lending in the UK and is able to provide a fascinating insight into which regions are net creditors and recipients. It is the first time financial data has been published with an open data certificate.
 
 **Regions in the South lend more, but the UK is surprisingly balanced when it comes to recipients.**
 
