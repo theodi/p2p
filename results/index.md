@@ -8,9 +8,9 @@ weight: 3
 
 <h3>Overall statistics</h3>
 
-<p>The total amount of P2P loans in the sample was <strong>£378.3 million</strong>. In the data, the UK market from Oct 2010 to May 2013, we can identify 48,891 lenders and 59,851 recipients (see Methodology for details and caveats). Table 1.1 shows the average loan and Figure 1.1 and 1.2 the whole distribution across lenders and recipients.</p>
+The total amount of P2P loans in the sample was <strong>£378.3 million</strong>. In the data, the UK market from Oct 2010 to May 2013, we can identify 48,891 lenders and 59,851 recipients (see [Methodology](http://smtm.labs.theodi.org/methodology) for details and caveats). Table 1.1 shows the average loan and Figure 1.1 and 1.2 the whole distribution across lenders and recipients.
 
-<p>The unit of analysis is a loan part. In total there are 13,924,547 loan parts. A recipient who takes out a loan of £2,000 may receive the money from hundreds of different lenders. Vice versa, a lender may subdivide her investment into many loans. A typical (median, see explanation) amount for a loan part is £10. However, in a small number of cases the investment per loan part is substantially larger.</p>
+The unit of analysis is a loan part. In total there are 13,924,547 loan parts. A recipient who takes out a loan of, for example, £5,000 may receive the money from hundreds of different lenders. Vice versa, a lender may subdivide her investment into many loans. A typical (median, see [explanation](http://smtm.labs.theodi.org/methodology#median)) amount for a loan part is £10. However, in a small number of cases the investment per loan part is substantially larger.
 
 <h6>Table 1.1 Descriptive statistics for lenders and recipients</h6>
 
@@ -84,7 +84,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 
 <p>Each loan part has a postcode for the lender and the recipient. Thus, we can calculate regional flows at any level in the UK. Table 1.2 is aggregated on a regional level. Perhaps not surprisingly, London is the biggest lender and the second biggest recipient. Only the South East receives more financial resources from the P2P market.</p>
 
-<p>Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see Appendix). However, bear in mind that the regional allocation is, in most cases, <em>not</em> a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisions.</p>
+<p>Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see Appendix). However, bear in mind that the regional allocation is, in most cases, <em>not</em> a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisio)ns.</p>
 
 <h6>Table 1.2 Regional statistics and population figures (in £ and £ per person)</h6>
 
