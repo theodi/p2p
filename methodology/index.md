@@ -8,7 +8,7 @@ weight: 4
 
 ## Data
 
-We received the data in its raw format (the loan book) from each of the three P2P lenders. All R code is available on [GitHub](https://github.com/theodi). As a prerequisite for merging we harmonised the data, for example, by changing the unit for interest rates (percentage points instead of units).
+We received the data in its raw format (the loan book) from each of the three P2P lenders. All R code is available on [GitHub](https://github.com/theodi/R-projects/tree/master/peer-to-peer). As a prerequisite for merging we harmonised the data, for example, by changing the unit for interest rates (percentage points instead of units).
 
 Further, we had to exclude a total of 20,916 observations, that is loan parts. Given the large amount of loan parts this represents only 0.15% of the sample. Most of them were omitted due to missing postcodes. In fact, some of the P2P lenders do not validate UK postcodes, which meant we also excluded some foreign postcodes. We also excluded postcodes of the Isle of Man (IM), the British Forces (BF), Guernsey (GY) and Jersey (JE) as these areas are not part of the United Kingdom.
 
