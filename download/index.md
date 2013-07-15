@@ -19,7 +19,7 @@ weight: 5
 
 		<ul>
 			<li><strong>Format</strong> <span property="dcat:mediaType" content="text/csv">CSV</span></li>
-			<li><strong>Size</strong> <span property="dcat:byteSize" content="162529280" datatype="xsd:decimal">155MB</span></li>
+			<li><strong>Size</strong> <span property="dcat:byteSize" content="240585277" datatype="xsd:decimal">229.44MB</span></li>
 			<li><strong>Coverage</strong> <span property="dct:spatial" content="http://dbpedia.org/resource/United_Kingdom">UK</span></li>
 		</ul>
 		
@@ -50,7 +50,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041427">South West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="2500000" datatype="xsd:decimal">2.5MB</td>
+			<td property="dcat:byteSize" content="26906460" datatype="xsd:decimal">25.66MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.south_west.csv.zip">Download</a>
 			</td>
@@ -62,7 +62,7 @@ weight: 5
 					<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041421">South East</span>
 				</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="4500000" datatype="xsd:decimal">4.5MB</td>
+			<td property="dcat:byteSize" content="49534730" datatype="xsd:decimal">47.24MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.south_east.csv.zip">Download</a>
 			</td>
@@ -74,7 +74,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041428">London</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="4700000" datatype="xsd:decimal">4.7MB</td>
+			<td property="dcat:byteSize" content="50541363" datatype="xsd:decimal">48.2MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.london.csv.zip">Download</a>
 			</td>
@@ -86,7 +86,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041426">West Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1500000" datatype="xsd:decimal">1.5MB</td>
+			<td property="dcat:byteSize" content="14176748" datatype="xsd:decimal">13.52MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.west_midlands.csv.zip">Download</a>
 			</td>
@@ -98,7 +98,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041423">East Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1200000" datatype="xsd:decimal">1.2MB</td>
+			<td property="dcat:byteSize" content="11827937" datatype="xsd:decimal">11.28MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.east_midlands.csv.zip">Download</a>
 			</td>
@@ -110,7 +110,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041422">North East</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="782000" datatype="xsd:decimal">782KB</td>
+			<td property="dcat:byteSize" content="6574572" datatype="xsd:decimal">6.27MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.north_east.csv.zip">Download</a>
 			</td>
@@ -122,7 +122,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041431">North West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1800000" datatype="xsd:decimal">1.8MB</td>
+			<td property="dcat:byteSize" content="18025021" datatype="xsd:decimal">17.19MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.north_west.csv.zip">Download</a>
 			</td>
@@ -134,7 +134,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041430">Yorkshire and the Humber</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="16000000" datatype="xsd:decimal">1.6MB</td>
+			<td property="dcat:byteSize" content="15487468" datatype="xsd:decimal">14.77MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.yorkshire_and_the_humber.csv.zip">Download</a>
 			</td>
@@ -146,7 +146,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041425">East of England</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="22000000" datatype="xsd:decimal">2.2MB</td>
+			<td property="dcat:byteSize" content="22124953" datatype="xsd:decimal">21.1MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.east_of_england.csv.zip">Download</a>
 			</td>
@@ -158,7 +158,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/scotland">Scotland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="15000000" datatype="xsd:decimal">1.5MB</td>
+			<td property="dcat:byteSize" content="13862175" datatype="xsd:decimal">13.22MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.scotland.csv.zip">Download</a>
 			</td>
@@ -170,7 +170,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/wales">Wales</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="10000000" datatype="xsd:decimal">1MB</td>
+			<td property="dcat:byteSize" content="9500099" datatype="xsd:decimal">9.06 MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.wales.csv.zip">Download</a>
 			</td>
@@ -182,7 +182,7 @@ weight: 5
 				<span property="dct:spatial" content="http://dbpedia.org/page/Northern_Ireland">Northern Ireland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="309000" datatype="xsd:decimal">309KB</td>
+			<td property="dcat:byteSize" content="2023751" datatype="xsd:decimal">1.93 MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.northern_ireland.csv.zip">Download</a>
 			</td>
@@ -207,7 +207,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041427">South West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="14100000" datatype="xsd:decimal">14.1MB</td>
+			<td property="dcat:byteSize" content="20436746" datatype="xsd:decimal">19.49MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.south_west.csv.zip">Download</a>
 			</td>
@@ -219,7 +219,7 @@ weight: 5
 					<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041421">South East</span>
 				</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="21500000" datatype="xsd:decimal">21.5MB</td>
+			<td property="dcat:byteSize" content="32768000" datatype="xsd:decimal">31.25MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.south_east.csv.zip">Download</a>
 			</td>
@@ -231,7 +231,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041428">London</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="15900000" datatype="xsd:decimal">15.9MB</td>
+			<td property="dcat:byteSize" content="24054333" datatype="xsd:decimal">22.94MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.london.csv.zip">Download</a>
 			</td>
@@ -243,7 +243,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041426">West Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="12100000" datatype="xsd:decimal">12.1MB</td>
+			<td property="dcat:byteSize" content="18371052" datatype="xsd:decimal">17.52MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.west_midlands.csv.zip">Download</a>
 			</td>
@@ -255,7 +255,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041423">East Midlands</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="10300000" datatype="xsd:decimal">10.3MB</td>
+			<td property="dcat:byteSize" content="15424553" datatype="xsd:decimal">14.71MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.east_midlands.csv.zip">Download</a>
 			</td>
@@ -267,7 +267,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041422">North East</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="7500000" datatype="xsd:decimal">7.5MB</td>
+			<td property="dcat:byteSize" content="11041505" datatype="xsd:decimal">10.53MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.north_east.csv.zip">Download</a>
 			</td>
@@ -279,7 +279,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041431">North West</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="18900000" datatype="xsd:decimal">18.9MB</td>
+			<td property="dcat:byteSize" content="27420262" datatype="xsd:decimal">26.15MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.north_west.csv.zip">Download</a>
 			</td>
@@ -291,7 +291,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041430">Yorkshire and the Humber</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="117000000" datatype="xsd:decimal">11.7MB</td>
+			<td property="dcat:byteSize" content="23697818" datatype="xsd:decimal">22.6MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.yorkshire_and_the_humber.csv.zip">Download</a>
 			</td>
@@ -303,7 +303,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/id/7000000000041425">East of England</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="56000000" datatype="xsd:decimal">5.6MB</td>
+			<td property="dcat:byteSize" content="19597885" datatype="xsd:decimal">18.69MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.east_of_england.csv.zip">Download</a>
 			</td>
@@ -315,7 +315,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/scotland">Scotland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="164000000" datatype="xsd:decimal">16.4MB</td>
+			<td property="dcat:byteSize" content="23897047" datatype="xsd:decimal">22.79MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.scotland.csv.zip">Download</a>
 			</td>
@@ -327,7 +327,7 @@ weight: 5
 				<span property="dct:spatial" content="http://data.ordnancesurvey.co.uk/doc/country/wales">Wales</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="103000000" datatype="xsd:decimal">10.3MB</td>
+			<td property="dcat:byteSize" content="14648607" datatype="xsd:decimal">13.97MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.wales.csv.zip">Download</a>
 			</td>
@@ -339,7 +339,7 @@ weight: 5
 				<span property="dct:spatial" content="http://dbpedia.org/page/Northern_Ireland">Northern Ireland</span>
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="33000000" datatype="xsd:decimal">3.3MB</td>
+			<td property="dcat:byteSize" content="4330618" datatype="xsd:decimal">4.13MB</td>
 			<td property="dct:type" resource=":indirect-access">
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.northern_ireland.csv.zip">Download</a>
 			</td>
@@ -366,7 +366,7 @@ weight: 5
 				Statistics by County
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="1096 " datatype="xsd:decimal">1kb</td>
+			<td property="dcat:byteSize" content="1455" datatype="xsd:decimal">1.42kb</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/county-statistics-p2p.csv">Download</a>
 			</td>
@@ -390,7 +390,7 @@ weight: 5
 				Region Flow
 			</td>
 			<td property="dcat:mediaType" content="text/csv">CSV</td>
-			<td property="dcat:byteSize" content="19000 " datatype="xsd:decimal">19kb</td>
+			<td property="dcat:byteSize" content="19313" datatype="xsd:decimal">18.86KB</td>
 			<td>
 				<a property="dcat:accessURL" class="btn btn-primary" href="http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/region-flow-p2p.csv">Download</a>
 			</td>
