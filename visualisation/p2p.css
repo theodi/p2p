@@ -1,0 +1,566 @@
+/* blocks on the page */
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 11px;   
+}
+
+#graphs, #stackWrapper, #barWrapper {
+  float: left;
+  width: 600px;
+}
+
+#stackWrapper, #barWrapper {
+  display: none;
+  opacity: 0;
+}
+
+#graphs {
+  margin-top: 30px; 
+}
+
+#barWrapper {
+  float: left;
+  opacity: 0;
+  overflow: visible;
+  display: inline-block;
+}
+
+#mapWrapper {
+  float: left;
+  width: 350px;	
+}
+
+/* map stuff */ 
+#map {
+  width: 350px;
+  height: 700px;
+  float: left;
+  background: white;
+}
+
+.map-segment {
+  fill: white;
+  stroke-width: 0.5;
+  stroke: #666666;
+  cursor: pointer;
+}
+
+.map-segment:sElEctEd {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+/* chartS*/
+
+#stAckchArt {
+  position: relative;
+  width: 250px;
+  height: auto;
+  overflow: visible;
+  float: left;
+  display: inline-block;
+} 
+
+
+#rAnkchArt {
+	position: relative;
+	left:0;
+	top:0;
+	height: auto;
+	width: auto;
+	overflow: visible;
+}
+
+
+#rAnkcAptOp, #rAnkcApbOt {
+  text-align: left;
+}
+
+#rAnkcAptOp {
+	margin-bottom: 5px;
+	color: #558800;
+}
+
+#rAnkcApbOt {
+	margin-top: -40px;
+	color: #990099;
+}
+
+/*axes stuff*/
+
+.rankYaxis  {
+  font-family: 'Helvetica';
+  text-transform: lowercase;
+}
+
+.rankYaxis path, .rankXaxis path {
+  stroke: white;
+  stroke-width: .5px;
+  fill: none;
+}
+
+
+.stackYaxis {
+  stroke-width: 1px;
+  fill: none;
+  stroke: transparant;
+} 
+
+
+.tick text  {
+  font-family: "Arial Narrow", Helvetica;
+  font-size: .8em;
+  font-weight: normal;
+  text-transform: lowercase;
+  stroke: none;
+  fill: dimgrey;
+}
+
+.Alabel {
+  font-size: .77em; /*.8em;???*/
+  font-family: 'Arial Narrow', 'Verdana'; /* the Arial Narrow is just a suggestion - I use it a lot for confined spaces (like axes) */  
+  fill: none!important;
+}
+
+.Alabel.sElEctEd {
+  fill: #999999!important;
+/*  font-size: 2em;
+  text-shadow: .1em, .1em, .2em;
+  border: 1px solid black;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+*/
+}
+
+
+
+/*mind the order this entry and Alabel are influencing each other! */
+.rankXaxis text {
+  fill: white;
+}
+
+
+#DaHeader {
+  width: 580px;
+  float: left;
+  font-size: 3em;
+  overflow: auto;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.heading {
+  display: inline-block;
+  font-size: .7em;
+  border-left: solid 3px #cccccc;
+  padding: 3px 5px;
+	color: #999999;
+}
+
+.selectedHeader, .hasPointer:hover {
+  border-color: #000000;
+	color: #000000;
+	background-color: #eeeeee;
+}
+
+.hasPointer {
+  cursor: pointer;
+}
+
+#LabelColumnWrapper {
+  width: 597px;
+  margin: 30px 0px 0px 3px;
+  float: left;
+}
+
+.LabelColumns {
+}
+
+#LabelColumnLeft {
+  float: left;
+  text-align: left;
+  margin-right: 20px;
+}
+
+#LabelColumnRight {
+  float: left;
+  text-align: right;
+  margin-left: 20px;
+}
+
+#LabelColumnLeft, #LabelColumnRight {
+  width: 145px;  
+}
+
+#loanHead, #LoanSum, #LoanPeeps, #LoanPeepsTitles, #LoanPops, #AvrgLoan, #MedianLoan, #borrHead, #BorrSum, #BorrPeeps, #BorrPeepsTitles, #BorrPops, #AvrgBorr, #MedianBorr {
+  position: relative; 
+  padding: 3px 5px;
+}
+
+
+#loanHead, #borrHead {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+
+#LoanPops, #BorrPops {
+  margin-top: 25px;
+}
+
+
+#LoanSum, #BorrSum, #LoanPops, #BorrPops, #AvrgLoan, #AvrgBorr, .stackrect /*.regiontekst*/ {
+  cursor: pointer;
+}
+
+
+#LoanSum, #LoanPops, #AvrgLoan {
+	margin-left: -3px;
+	border-left: 3px solid transparent;
+}
+#BorrSum, #BorrPops, #AvrgBorr {
+	margin-right: -3px;
+	border-right: 3px solid transparent;
+}
+
+
+#LoanPeepsTitles, #BorrPeepsTitles {
+}
+
+    
+#LoanPeeps, #BorrPeeps {
+  height: 150px;
+  width: 110px;
+}
+
+#BorrPeeps {
+  margin-left: 25px;
+}
+
+
+#MedianLoan, #MedianBorr {
+}
+
+
+.loanmEdiAnline {
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-dasharray: 6,6;
+  fill: none;
+}
+
+.borrmEdiAnline { 
+  stroke-width: 1.5px;
+  stroke-linecap: round;
+  stroke-dasharray: 6,6;
+  fill: none;
+}
+
+
+.amount {
+  font-size: 2.2em;
+}
+
+  
+.regiontekst {
+  font-size: .8em;
+}
+
+
+
+/*
+
+.regionLabel {
+  float: left;
+  border-left: 1px solid #cccccc;
+  background: #ffffff;
+  height: 60px;
+  margin: 0;
+  padding: 2px 0px;
+  font-family: 'Verdana', 'Tahoma', sans-serif;
+  font-size: 9px;
+  color: #cccccc;
+}
+
+.regionLabel.sElEctEd {
+  color: #000000;
+  border-left: 1px solid #000000;
+}
+
+#rEpOrtEr {
+    position: absolute;
+    left: 700px;
+    top: 12px;
+    width: 300px;
+}
+
+.statsbar {
+  overflow: visible;
+}
+*/
+
+
+#rEpOrtEr, #helpPoPPer {
+  position: absolute;
+  background: white;
+/*left: 10px;
+  top: 10px;*/
+  width: 100px;
+/*width: auto;*/
+  min-height: 20px;
+  height: auto;
+  padding: 8px 8px 10px 8px;
+  text-align: center;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#tOprEp {
+  clear: both;
+}
+
+.reportdOOs {
+  background: lightgrey;
+  border: .5px solid grey;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  box-shadow: 8px 8px 16px lightgrey;
+  -moz-box-shadow: 8px 8px 16px lightgrey;
+  -webkit-box-shadow: 8px 8px 16px lightgrey;
+ /* opacity: .6;*/
+}
+
+.topRPRTRS, .midRPRTRS, .onderRPRTRS {
+  padding: 8px;
+}
+
+.reportLabels {
+  font-family: Verdana, FreeSans;
+  color:  black; /*#2F8D21*/
+ /*  fill:  black;#2F8D21*/
+  font-size: 110%;
+  font-weight: normal; 
+/*  text-shadow: .5px .5px 1px black;*/
+/*  letter-spacing: -1px;
+  line-height: 85%;  */
+}
+
+
+/* buttons were used for testing purposes
+#buttonTje {
+  position: absolute;
+  left: 10px;
+  top: 750px;
+}
+
+#buttonBox {
+  position: absolute;
+  left: 50px;
+  top: 750px;
+}
+
+#buttondropper {
+  position: relative;
+  left: 465px;
+  top: 750px;
+}
+
+.buttons {
+  font-size: .8em;
+  float: left;
+  background-color: #444;
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,.25), rgba(255,255,255,.11));
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgba(255,255,255,.25)),color-stop(1, rgba(255,255,255,.11)));
+  background-image: -webkit-linear-gradient(rgba(255,255,255,.25), rgba(255,255,255,.11));
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  text-shadow: 0 -1px 1px #222;
+  padding: 4px 4px 4px 4px;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #222;
+  margin: 0;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+}
+
+
+.buttons.first {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.buttons.last {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.buttons.active {
+  background-color: rgb(65,102,133);
+}
+
+.buttons:hover {
+  background-color: steelblue;
+}
+
+#region_choice {
+  text-align: center;
+}
+
+*/
+
+/*for svg icons */        
+#bewaarBak {
+  display: none;
+}
+
+
+/*footer*/
+
+#iconomical-footer {
+	width: 350px;
+	float: left;
+	color: #999999;
+}
+
+#iconomical-footer .source {
+	float: left;
+	font-size: 10px;
+}
+
+#iconomical-footer .source p {
+	margin: 18px 0;
+}
+
+#iconomical-footer .iconomical {
+	float: right;
+	padding: 18px 0;
+	font-size: 11px;
+}
+
+#iconomical-footer .iconomical a {
+	padding: 15px 100px 18px 0;
+	text-decoration: none;
+	color: #000000;
+	opacity: 0.5;
+	background: transparent url('images/iconomical-logo.png')  no-repeat top right ;
+}
+
+#iconomical-footer .iconomical a:hover {
+	opacity: 1.0;
+}
+
+
+/* color sheme */
+
+.LabelColumns {
+  color: #999999;
+}
+
+.selectedColumn {
+  color: #333333;
+}
+
+#LabelColumnLeft .selectedLabel, #LabelColumnLeft .selectedLabel div {
+  color: #558800;
+  background-color: #ddeecc;
+}
+
+#LabelColumnRight .selectedLabel, #LabelColumnRight .selectedLabel div {
+  color: #990099;
+  background-color: #eebbee;
+}
+
+
+.users {
+  fill: #999999;
+}
+
+.selectedColumn .users {
+  fill: #333333;
+}
+
+.Lbar, .loanmEAnbar, .loanmEdiAnline {
+  fill: #88bb55;
+}
+
+.Bbar, .borrmEAnbar, .borrcOlOr {
+  fill: #cc66cc;
+}
+
+.Lbar.sElEctEd {
+  fill: #558800;
+}
+
+.Bbar.sElEctEd {
+  fill: #990099;
+}
+
+.loanmEdiAnline {
+  stroke: #558800;
+}
+
+.borrmEdiAnline { 
+  stroke: #990099;
+}
+
+.lendcOlOr {
+  background: #558800;
+}
+
+.borrcOlOr {
+  background: #990099;
+}
+
+.lendcOlOr.darker {
+  background: #558800;
+/* border-color: #5254A3; ??*/
+}
+
+.borrcOlOr.darker {
+  background: #990099;
+ /* border-color: #AD494A; ??*/
+}
+
+#LoanSum, #LoanPops, #AvrgLoan {
+	color: #558800;
+}
+
+#BorrSum, #BorrPops, #AvrgBorr {
+  color: #990099;
+}
+
+#LoanSum:hover, #LoanPops:hover, #AvrgLoan:hover, #LoanSum.selectedLabel, #LoanPops.selectedLabel, #AvrgLoan.selectedLabel  {
+	border-left-color:  #558800;
+}
+
+#BorrSum:hover, #BorrPops:hover, #AvrgBorr:hover, #BorrSum.selectedLabel, #BorrPops.selectedLabel, #AvrgBorr.selectedLabel {
+	border-right-color: #990099;
+}
+
+#mapChart .labels text {
+	fill: #000000;
+	font-size: 11px;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

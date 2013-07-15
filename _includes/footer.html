@@ -1,3 +1,5 @@
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -12,9 +14,11 @@
 		<div class='span4 footer-nav'>
 			<nav>
 				<ul class='pull-right'>
-					<li><a href="/terms">Terms of use</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/contact">Get in touch</a></li>
+					{% for p in site.pages %}
+						{% if p.menu == "bottom" %}
+						<li><a href="{{ site.url_root }}{{ p.url | remove: 'index.html' }}">{{p.title}}</a></li>
+						{% endif %}
+					{% endfor %}
 				</ul>
 			</nav>
 		</div>

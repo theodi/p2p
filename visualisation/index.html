@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html prefix="dct: http://purl.org/dc/terms/
+              rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+              dcat: http://www.w3.org/ns/dcat#
+              odrs: http://schema.theodi.org/odrs#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>show me the money | Explore</title>
+<link href="http://assets.theodi.org/css/odi-bootstrap-green.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="p2p.css" type="text/css">
+
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="queue.js"></script>
+<script src="underscore-min.js"></script>
+
+<script src="topojson.js"></script>
+<script src="cartogram.js"></script>
+<script src="odi_compressed.js"></script>
+<link rel="shortcut icon" href="http://smtm.labs.theodi.org/img/odifavicon32.ico">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
+<script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
+</head>
+<body>
+<nav>
+	<div class='navbar navbar-inverse navbar-static-top' id='topbar'>
+		<div class='container'>
+			<div class='navbar-inner'>
+				<h1><a href="/">show me the money</a></h1>
+				<span class="label" style="top: -10px; position: absolute; left: 310px;">
+					ALPHA
+				</span>
+				<a class='brand' href='/'>
+					<img alt="Logo" src="http://smtm.labs.theodi.org/img/logo.png" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class='navbar navbar-static-top' id='mainnav'>
+		<div class='container'>
+			<div class='navbar-inner'>
+				<ul class='nav pull-right'>
+					
+					<li>
+						<a href="http://smtm.labs.theodi.org/">Home</a>
+						
+							<div class="arrow-down"></div>
+						
+					</li>
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+							<li>
+								<a href="http://smtm.labs.theodi.org/summary/">Summary</a>
+								
+								
+							</li>
+							
+						
+					
+						
+							
+						
+							
+							<li>
+								<a href="http://smtm.labs.theodi.org/background/">Background</a>
+								
+								
+							</li>
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+							<li>
+								<a href="http://smtm.labs.theodi.org/results/">Results</a>
+								
+								
+							</li>
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+							<li>
+								<a href="http://smtm.labs.theodi.org/methodology/">Methodology</a>
+								
+								
+							</li>
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+							<li>
+								<a href="http://smtm.labs.theodi.org/download/">Get the data</a>
+								
+								
+							</li>
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class='whiteout'>
+	<header>
+		<div class='container'>
+			<h1>Explore</h1>
+		</div>
+	</header>
+
+	<div class='container main-default' id='main'>
+		<div class='row'>
+			<div class='span7'>
+
+<p>This site provides the most comprehensive snapshot to date of the UK peer-to-peer lending (P2P) market. Using data from the three biggest P2P platforms in the UK (<a href='http://uk.zopa.com/'>Zopa</a>, <a href='http://www.ratesetter.com/'>RateSetter</a> and <a href='https://www.fundingcircle.com/'>Funding Circle</a>) we highlight the regional geography of lending in the UK.</p>
+
+
+<script>
+    $(window).load(function() {
+        var driver = iconomical.odi_p2p.p2p();
+        driver.initialise();
+    });
+</script>
+
+<!--    
+	<div id="buttonTje">
+		<button class="buttons first last" id="reSetterSet">reset</button>
+	</div>
+	<div id="buttonBox">    
+		<button class="buttons first" id="sortLendUp">sort by Lending: UP</button>
+		<button class="buttons" id="sortLendDown">sort by Lending: DOWN</button>
+		<button class="buttons" id="sortBorrUp">sort by Borrowing: UP</button>
+		<button class="buttons last" id="sortBorrDown">sort by Borrowing: DOWN</button>
+	</div>
+	<div id="buttondropper">    
+		<button class="buttons first" id="borrowsortNeerB">sort by Borrowing</button>
+		<button class="buttons" id="lendingsortNeerB">sort by Lending</button>
+		<button class="buttons last" id="regionsortB">sort by Region</button>
+		<select id="region_choice"><option selected="selected">UK</option></select>
+	</div>
+-->
+    
+    
+<div id="wrapper"> 
+    
+    <div id="graphs">
+    
+        <div id="DaHeader" class="TopLabel">
+            
+            <div id="levelIheader"></div>
+            <div id="levelIIheader"></div>
+            <div id="levelIIIheader"></div>
+            <div id="levelIVheader"></div>
+
+        </div>
+    
+        <div id="barWrapper">
+            
+            <div id="rAnkcAptOp">hier</div>
+            <div id="rAnkchArt"></div>
+            <div id="rAnkcApbOt">nu</div>
+            
+            <!--<div id="regionBox"></div>-->    
+        </div>
+        <div id="stackWrapper">
+        
+            <div id="LabelColumnWrapper">		
+                <div id="LabelColumnLeft" class="LabelColumns">
+                                    
+                    <div id="loanHead" class="totalLabel">Lending</div>    
+                    
+                    <div id="LoanSum" class="amount" class="cOntrOl">
+                        <div class="sumLabel"></div>
+                    </div>
+                        <div id="LoanPops" class="cOntrOl">
+                        <div class="amount"></div>
+                        <div class="description">lenders</div>
+                    </div>
+                    
+                    <div id="LoanPeepsTitles" class="description"><span class="amount"></span> lenders per 10.000</div>
+                    <div id="LoanPeeps" class="peepers"></div>
+                    
+                    <div id="AvrgLoan" class="cOntrOl">
+                        <div class="amount"></div>
+                        <div class="description">average lent</div>
+                    </div>
+                    
+                    <div id="MedianLoan">
+                        <div class="amount"></div>
+                        <div class="description">median lent</div>
+                    </div>
+                </div>    
+                      
+                <div id="stAckchArt"></div>
+                
+                <div id="LabelColumnRight" class="LabelColumns">                        
+                    <div id="borrHead" class="totalLabel">Receiving</div>    
+                    
+                    <div id="BorrSum" class="amount" class="cOntrOl">
+                        <div class="sumLabel"></div>
+                    </div>
+                    
+                    <div id="BorrPops" class="cOntrOl">
+                        <div class="amount"></div>
+                        <div class="description">recipients</div>
+                    </div>
+                    
+                    <div id="BorrPeepsTitles" class="description"><span class="amount"></span> recipients per 10.000</div>
+                    
+                    <div id="BorrPeeps" class="peepers"></div>
+                    
+                    <div id="AvrgBorr" class="cOntrOl">
+                        <div class="amount"></div>
+                        <div class="description">average received  </div>
+                    </div>
+                    
+                    <div id="MedianBorr">
+                        <div class="amount"></div>
+                        <div class="description">median received</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="rEpOrtEr">
+                <div id="tOprEp"></div>
+                <div id="mIdrEp"></div>
+                <div id="bOtrEp"></div>
+            </div>
+        </div>
+    </div>
+    
+	
+	<div id="mapWrapper">
+		<div id="map"></div>
+		<div id="iconomical-footer">
+			<div class="source">
+				<p><b><span id="source_label"></span></b><span id="source_text"></span></p>
+			</div>
+			<div class="iconomical">
+				<a href="http://www.iconomical.com">visualization by</a>
+			</div>		
+		</div>	
+	</div>
+
+</div>
+
+<div id="bewaarBak">
+    <svg>
+        <g id="girl" class="dolly">
+            <g>
+                <circle cx="6.609" cy="2.338" r="2.338"/>
+                <path d="M6.609,2.338"/>
+            </g>
+            <g>
+                <path d="M6.264,19.508l0.001,8.099c0,1.471-2.205,1.471-2.205,0l-0.001-8.042h-2.96L4.263,8.584h-0.49l-1.842,6.194
+			c-0.438,1.352-2.293,0.796-1.868-0.65l2.044-6.73C2.325,6.631,3.296,5.27,4.976,5.27h1.55l0,0h1.667
+			c1.665,0,2.641,1.372,2.892,2.128l2.045,6.723c0.409,1.446-1.432,2.045-1.869,0.636L9.419,8.584H8.887l3.191,10.981H9.112v8.053
+			c0,1.46-2.195,1.453-2.195,0v-8.109H6.264z"/>
+            </g>
+        </g>
+
+        <g id="boy" class="dolly">
+            <g>
+                <circle cx="6.608" cy="2.356" r="2.386"/>
+                <path d="M6.608,2.356"/>
+            </g>
+            <g>
+                <path d="M4.055,5.269c-1.689,0-3.048,1.378-3.048,3.097v7.325c0,1.424,2.085,1.424,2.085,0V8.992h0.492v18.34
+			c0,1.904,2.775,1.848,2.775,0V16.686h0.479v10.646c0,1.848,2.791,1.904,2.791,0V8.992h0.481v6.698c0,1.435,2.073,1.435,2.069,0
+			V8.409c0-1.585-1.23-3.137-3.086-3.137L4.055,5.269z"/>
+            </g>
+        </g>
+    </svg>
+</div>
+
+
+
+<p><strong>Here&#8217;s how the visualisation works:</strong></p>
+
+<p>Click on the region on the map (right side) which interests you. The stacked graph on the left then allows you to drill down even further into the region. Move your mouse down the stacked graph to discover more granular detail such as the average and median amounts lent and received. Finally the bar graph at the top gives you a high level overview of loans funded and received by the postcode areas for all regions in the UK.</p>
+
+<p>For example, click on the total amount for lending or receiving. The map, a <a href='http://en.wikipedia.org/wiki/Cartogram'>cartogram</a>, shows you how the loans are spread across the UK.</p>
+
+<p>Go on and have a play. Show yourself the money!</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer id='footer'>
+	<div class='container'>
+		<div class='span8 footer-content'>
+			<h1><a href='http://www.theodi.org'>Open Data Institute</a></h1>
+			<p> <a href='http://www.openstreetmap.org/?lat=51.522205&amp;lon=-0.08176500000001852&amp;zoom=16&amp;layers=T&amp;mlat=51.52210&amp;mlon=-0.08343'>Open Data Institute</a><span>, 65 Clifton Street, London EC2A 4JE</span></p>
+			<p><a href='mailto:info@theodi.org'>info@theodi.org</a> · Company <a href='http://opencorporates.com/companies/gb/08030289'>08030289</a>	· <span>VAT</span> <span>143 7796 80</span></p>
+			<p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img alt="Creative Commons Licence" height="15" src="http://smtm.labs.theodi.org/img/logo_cc_80x15.png" width="80" /></a></p>
+		</div>
+		<div class='span4 footer-nav'>
+			<nav>
+				<ul class='pull-right'>
+					
+						
+						<li><a href="http://smtm.labs.theodi.org/acknowledgments/">Acknowledgments</a></li>
+						
+					
+						
+					
+						
+						<li><a href="http://smtm.labs.theodi.org/contact/">Get in touch</a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+						<li><a href="http://smtm.labs.theodi.org/privacy/">Privacy</a></li>
+						
+					
+						
+					
+						
+						<li><a href="http://smtm.labs.theodi.org/rights/">Rights statement</a></li>
+						
+					
+						
+					
+				</ul>
+			</nav>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
