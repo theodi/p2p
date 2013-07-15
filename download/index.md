@@ -405,11 +405,11 @@ weight: 5
 <table class="table">
 	<tr>
 		<th scope="row">Released on:</th>
-		<td property="dcat:issued">2013-06-28</td>
+		<td property="dcat:issued">2013-07-16</td>
 	</tr>
 	<tr>
 		<th scope="row">Temporal coverage:</th>
-		<td property="dct:temporal" content="start=2012-01-01; end=2013-01-01">2012-01-01 - 2013-01-01</td>
+		<td property="dct:temporal" content="start=2010-10-01; end=2013-05-31">2010-10-01 to 2013-05-31</td>
 	</tr>
 	<tr>
 		<th scope="row">Spatial coverage:</th>
