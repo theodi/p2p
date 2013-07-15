@@ -38,6 +38,10 @@ td.align-right, th.align-right  {
 	text-align: right;
 }
 
+td.align-center, th.align-center  {
+	text-align: center;
+}
+
 .table td {
 	padding: 2px;
 }

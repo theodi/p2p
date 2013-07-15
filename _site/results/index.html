@@ -10,7 +10,7 @@
 <title>show me the money | Results</title>
 <link href="http://assets.theodi.org/css/odi-bootstrap-green.css" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet">
-<link rel="shortcut icon" href="http://smtm.labs.theodi.org/img/odifavicon32.ico">
+<link rel="shortcut icon" href="/img/odifavicon32.ico">
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
 <script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
 
@@ -25,7 +25,7 @@
 					ALPHA
 				</span>
 				<a class='brand' href='/'>
-					<img alt="Logo" src="http://smtm.labs.theodi.org/img/logo.png" />
+					<img alt="Logo" src="/img/logo.png" />
 				</a>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 			<div class='navbar-inner'>
 				<ul class='nav pull-right'>
 					<li>
-						<a href="http://smtm.labs.theodi.org/">Home</a>
+						<a href="/">Home</a>
 						
 					</li>
 					
@@ -60,7 +60,7 @@
 						
 							
 							<li>
-								<a href="http://smtm.labs.theodi.org/summary/">Summary</a>
+								<a href="/summary/">Summary</a>
 								
 								
 							</li>
@@ -72,7 +72,7 @@
 						
 							
 							<li>
-								<a href="http://smtm.labs.theodi.org/background/">Background</a>
+								<a href="/background/">Background</a>
 								
 								
 							</li>
@@ -112,7 +112,7 @@
 						
 							
 							<li>
-								<a href="http://smtm.labs.theodi.org/results/">Results</a>
+								<a href="/results/">Results</a>
 								
 								
 									<div class="arrow-down"></div>
@@ -138,7 +138,7 @@
 						
 							
 							<li>
-								<a href="http://smtm.labs.theodi.org/methodology/">Methodology</a>
+								<a href="/methodology/">Methodology</a>
 								
 								
 							</li>
@@ -162,7 +162,7 @@
 						
 							
 							<li>
-								<a href="http://smtm.labs.theodi.org/download/">Get the data</a>
+								<a href="/download/">Get the data</a>
 								
 								
 							</li>
@@ -333,7 +333,20 @@
 <td class='align-right'> £11,060</td>
 </tr>
 </tbody>
-</table><p>The table above speaks a clear language: lenders are much more skewed towards large loan amounts than recipients. The salient difference in mean and median loan values, as well as the large standard deviation, are a hint that a few lenders use large sums, whereas most recipients deal with amounts between £3,000 to £6,000. This result makes intuitive sense because lenders have more financial freedom than recipients and this is also reflected in the following box plots.</p><h6>Figure 1.1 Box plot for loan amounts of lenders (logarithmic scale)</h6><p><img alt='box plot lenders' src='/img/boxplot-lenders.png' title='Box Plot Lenders' /></p><h6>Figure 1.2 Box plot for loan amounts of recipients (logarithmic scale)</h6><p><img alt='box plot recipients' src='/img/boxplot-recipients.png' title='Box Plot Recipients' /></p><h3>Growth over time</h3>
+</table><p>The table above speaks a clear language: lenders are much more skewed towards large loan amounts than recipients. The salient difference in mean and median loan values, as well as the large standard deviation, are a hint that a few lenders use large sums, whereas most recipients deal with amounts between £3,000 to £6,000. This result makes intuitive sense because lenders have more financial freedom than recipients and this is also reflected in the following box plots.</p><table class='table' id='box-plots'>
+<thead>
+<tr>
+<th class='align-center'><h6>Figure 1.1 Box plot for loan amounts of lenders (logarithmic scale)</h6>        </th>
+<th class='align-center'><h6>Figure 1.2 Box plot for loan amounts of recipients (logarithmic scale)</h6></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class='align-center'><p><img alt='box plot lenders' src='/img/boxplot-lenders.png' title='Box Plot Lenders' /></p></td>
+<td class='align-center'><p><img alt='box plot recipients' src='/img/boxplot-recipients.png' title='Box Plot Recipients' /></p></td>
+</tr>
+</tbody>
+</table><h3>Growth over time</h3>
 <p>The P2P market has been growing steadily since its early days. In particular, we can compare the number of lenders and recipients at the beginning of the period (end of 2010) with the end of period (May 2013). The following maps plot the individual postcodes of lenders and recipients. Notice how there are no country boundaries and the maps emerge entirely from the postcodes.</p>
 <h6>Map 1.1 Growth of lenders over time</h6><p><img alt='growth of lenders' src='/img/maps/p2p-map-lenders.gif' title='Growth of Lenders' /></p><h6>Map 1.2 Growth of recipients over time</h6><p><img alt='growth of recipients' src='/img/maps/p2p-map-recipients.gif' title='Growth of Recipients' /></p><h3>Regional flows</h3><p>Each loan part has a postcode for the lender and the recipient. Thus, we can calculate regional flows at any level in the UK. Table 1.2 is aggregated on a regional level. Perhaps not surprisingly, London is the biggest lender and the second biggest recipient. Only the South East receives more financial resources from the P2P market.</p><p>Four regions have a positive balance; they invest more than they receive. All four regions, London, South East, South West and the East of England lie in the South of the UK. We can also look at more detailed patterns (see Appendix). However, bear in mind that the regional allocation is, in most cases, <em>not</em> a deliberate decision because of the platforms' functionalities. This depends on the platform itself. There may occur regional allocations based on implicit selection such as the loan rate. Therefore the findings in the appendix allude more to the robust nature of the market than personal investment decisions..</p><h6>Table 1.2 Regional statistics and population figures (in £ and £ per person)</h6><table class='table'>
 <thead>
@@ -888,20 +901,20 @@
 			<h1><a href='http://www.theodi.org'>Open Data Institute</a></h1>
 			<p> <a href='http://www.openstreetmap.org/?lat=51.522205&amp;lon=-0.08176500000001852&amp;zoom=16&amp;layers=T&amp;mlat=51.52210&amp;mlon=-0.08343'>Open Data Institute</a><span>, 65 Clifton Street, London EC2A 4JE</span></p>
 			<p><a href='mailto:info@theodi.org'>info@theodi.org</a> · Company <a href='http://opencorporates.com/companies/gb/08030289'>08030289</a>	· <span>VAT</span> <span>143 7796 80</span></p>
-			<p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img alt="Creative Commons Licence" height="15" src="http://smtm.labs.theodi.org/img/logo_cc_80x15.png" width="80" /></a></p>
+			<p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img alt="Creative Commons Licence" height="15" src="/img/logo_cc_80x15.png" width="80" /></a></p>
 		</div>
 		<div class='span4 footer-nav'>
 			<nav>
 				<ul class='pull-right'>
 					
 						
-						<li><a href="http://smtm.labs.theodi.org/acknowledgments/">Acknowledgments</a></li>
+						<li><a href="/acknowledgments/">Acknowledgments</a></li>
 						
 					
 						
 					
 						
-						<li><a href="http://smtm.labs.theodi.org/contact/">Get in touch</a></li>
+						<li><a href="/contact/">Get in touch</a></li>
 						
 					
 						
@@ -911,13 +924,13 @@
 						
 					
 						
-						<li><a href="http://smtm.labs.theodi.org/privacy/">Privacy</a></li>
+						<li><a href="/privacy/">Privacy</a></li>
 						
 					
 						
 					
 						
-						<li><a href="http://smtm.labs.theodi.org/rights/">Rights statement</a></li>
+						<li><a href="/rights/">Rights statement</a></li>
 						
 					
 						

@@ -44,13 +44,21 @@ weight: 3
 
 <p>The table above speaks a clear language: lenders are much more skewed towards large loan amounts than recipients. The salient difference in mean and median loan values, as well as the large standard deviation, are a hint that a few lenders use large sums, whereas most recipients deal with amounts between £3,000 to £6,000. This result makes intuitive sense because lenders have more financial freedom than recipients and this is also reflected in the following box plots.</p>
 
-<h6>Figure 1.1 Box plot for loan amounts of lenders (logarithmic scale)</h6>
 
-<p><img src="/img/boxplot-lenders.png" title="Box Plot Lenders" alt="box plot lenders" /></p>
-
-<h6>Figure 1.2 Box plot for loan amounts of recipients (logarithmic scale)</h6>
-
-<p><img src="/img/boxplot-recipients.png" title="Box Plot Recipients" alt="box plot recipients" /></p>
+<table id="box-plots" class="table">
+<thead>
+<tr>
+<th class="align-center"><h6>Figure 1.1 Box plot for loan amounts of lenders (logarithmic scale)</h6>        </th>
+<th class="align-center"><h6>Figure 1.2 Box plot for loan amounts of recipients (logarithmic scale)</h6></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="align-center"><p><img src="/img/boxplot-lenders.png" title="Box Plot Lenders" alt="box plot lenders" /></p></td>
+<td class="align-center"><p><img src="/img/boxplot-recipients.png" title="Box Plot Recipients" alt="box plot recipients" /></p></td>
+</tr>
+</tbody>
+</table>
 
 <h3>Growth over time</h3>
 
