@@ -22,6 +22,6 @@ A broader message of this project is that this sort of granular financial data i
 
 **What is P2P lending?**
 
-Peer-to-peer (P2P) platforms are online sites that match lenders to recipients. At this basic level they are much like banks. However, unlike banks, P2P platforms usually do not invest these funds solely at their own discretion.  Instead some enable investors to directly make investment decisions by choosing the recipient they fund or allowing lender to define the general social or financial features of the projects in which they want to invest. 
+Peer-to-peer (P2P) platforms are online sites that match lenders to recipients. At this basic level they are much like banks. However, unlike banks, P2P platforms usually do not invest these funds solely at their own discretion.  Instead some enable lenders to directly make investment decisions by choosing the recipient they fund or allowing lenders to define the general social or financial features of the projects in which they want to invest. 
 
 P2P lending is due to be regulated in 2014 and will fall under the [Financial Conduct Authority](http://www.fca.org.uk/). 
