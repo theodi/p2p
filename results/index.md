@@ -48,14 +48,14 @@ weight: 3
 <table id="box-plots" class="table">
 <thead>
 <tr>
-<th class="align-center"><h6>Figure 1.1 Box plot for loan amounts of lenders (logarithmic scale)</h6>        </th>
+<th class="align-center"><h6>Figure 1.1 Box plot for loan amounts of lenders (logarithmic scale)</h6></th>
 <th class="align-center"><h6>Figure 1.2 Box plot for loan amounts of recipients (logarithmic scale)</h6></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="align-center"><p><img src="/img/boxplot-lenders.png" title="Box Plot Lenders" alt="box plot lenders" /></p></td>
-<td class="align-center"><p><img src="/img/boxplot-recipients.png" title="Box Plot Recipients" alt="box plot recipients" /></p></td>
+<td class="align-center"><img src="/img/boxplot-lenders.png" title="Box Plot Lenders" alt="box plot lenders" /></td>
+<td class="align-center"><img src="/img/boxplot-recipients.png" title="Box Plot Recipients" alt="box plot recipients" /></td>
 </tr>
 </tbody>
 </table>
@@ -64,10 +64,21 @@ weight: 3
 
 The P2P market has been growing steadily since its early days. In particular, we can compare the number of lenders and recipients at the beginning of the period (end of 2010) with the end of period (May 2013). The following maps plot the individual postcodes of lenders and recipients. Notice how there are no country boundaries and the maps emerge entirely from the postcodes. 
 
-<h6>Map 1.1 Growth of lenders over time</h6>
-<p><img src="/img/maps/p2p-map-lenders.gif" title="Growth of Lenders" alt="growth of lenders"/></p>
-<h6>Map 1.2 Growth of recipients over time</h6>
-<p><img src="/img/maps/p2p-map-recipients.gif" title="Growth of Recipients" alt="growth of recipients" /></p>
+<table id="maps" class="table">
+<thead>
+<tr>
+<th class="align-center"><h6>Map 1.1 Growth of lenders over time</h6></th>
+<th class="align-center"><h6>Map 1.2 Growth of recipients over time</h6></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="align-center"><img src="/img/maps/p2p-map-lenders.gif" title="Growth of Lenders" alt="growth of lenders"/></td>
+<td class="align-center"><img src="/img/maps/p2p-map-recipients.gif" title="Growth of Recipients" alt="growth of recipients" /></td>
+</tr>
+</tbody>
+</table>
+
 
 <h3>Regional flows</h3>
 
