@@ -12,6 +12,6 @@ menu: bottom
     <p>If you would like to attribute your use of this dataset, please use a link similar to the following: </p>
 
     <p>
-    	<a href="http://smtm.preview.labs.theodi.org/" property="odrs:attributionURL"><span property="odrs:attributionText">Open Data Institute, Zopa, Funding Circle and RateSetter</span>.</a>
+    	<a href="http://smtm.labs.theodi.org/" property="odrs:attributionURL"><span property="odrs:attributionText">Open Data Institute, Zopa, Funding Circle and RateSetter</span>.</a>
     </p>
 </div>
