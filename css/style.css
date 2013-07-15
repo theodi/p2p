@@ -50,3 +50,7 @@ td.align-center, th.align-center  {
 #overall-stats td {
 	padding:8px;
 }
+
+li {
+  line-height: 24px;
+}
