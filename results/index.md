@@ -87,7 +87,7 @@ The P2P market has been growing steadily since its early days. In particular, we
 <th class="align-right"> Population  </th>
 <th class="align-right"> Investment (£ p.p.) </th>
 <th class="align-right"> Receiving (£ p.p.) </th>
-<th class="align-right"> Net sum (£ p.p.) </th>
+<th class="align-right"> Net&nbsp;sum (£ p.p.) </th>
 </tr>
 </thead>
 <tbody>
