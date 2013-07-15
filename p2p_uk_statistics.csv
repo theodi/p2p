@@ -1,0 +1,2 @@
+id,region,population,lenders,borrowers,total.borr,total.loan,avg.borr,avg.loan,median.borr,median.loan,sd.borr,sd.loan,min.borr,max.borr,min.loan,max.loan,borr.parts,loan.parts
+UK,UK,63232600,48891,59851,378263416,378263416,6320.0850,7736.8720,4160,1290,1059.5300,29369.4600,4,495840,10,2548400,13924547,13924547

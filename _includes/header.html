@@ -1,3 +1,4 @@
+{% assign current = page.link %}
 <!DOCTYPE html>
 <html prefix="dct: http://purl.org/dc/terms/
               rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
@@ -12,6 +13,18 @@
 <link rel="shortcut icon" href="{{ site.url_root }}/img/odifavicon32.ico">
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
 <script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
+{% if current == '/' %}
+<link rel="stylesheet" href="/visualisation/p2p.css" type="text/css">
+
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="/visualisation/queue.js"></script>
+<script src="/visualisation/underscore-min.js"></script>
+
+<script src="/visualisation/topojson.js"></script>
+<script src="/visualisation/cartogram.js"></script>
+<script src="/visualisation/odi_compressed.js"></script>
+{% endif %}
 </head>
 <body>
 <nav>
@@ -32,7 +45,6 @@
 		<div class='container'>
 			<div class='navbar-inner'>
 				<ul class='nav pull-right'>
-					{% assign current = page.link %}
 					<li>
 						<a href="{{ site.url_root }}/">Home</a>
 						{% if current == '/' %}

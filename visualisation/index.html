@@ -9,22 +9,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>show me the money | Explore</title>
 <link href="http://assets.theodi.org/css/odi-bootstrap-green.css" rel="stylesheet">
-<link href="/css/style.css" rel="stylesheet">
-<link rel="shortcut icon" href="http://smtm.labs.theodi.org/img/odifavicon32.ico">
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
-<script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
-
-<link rel="stylesheet" href="/visualisation/p2p.css" type="text/css">
+<link href="../css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="p2p.css" type="text/css">
 
 <script src="http://d3js.org/d3.v3.js"></script>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="/visualisation/queue.js"></script>
-<script src="/visualisation/underscore-min.js"></script>
+<script src="queue.js"></script>
+<script src="underscore-min.js"></script>
 
-<script src="/visualisation/topojson.js"></script>
-<script src="/visualisation/cartogram.js"></script>
-<script src="/visualisation/odi_compressed.js"></script>
-
+<script src="topojson.js"></script>
+<script src="cartogram.js"></script>
+<script src="odi_compressed.js"></script>
+<link rel="shortcut icon" href="http://smtm.labs.theodi.org/img/odifavicon32.ico">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
+<script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
 </head>
 <body>
 <nav>
@@ -45,6 +43,7 @@
 		<div class='container'>
 			<div class='navbar-inner'>
 				<ul class='nav pull-right'>
+					
 					<li>
 						<a href="http://smtm.labs.theodi.org/">Home</a>
 						
@@ -321,6 +320,7 @@
 
 <p>This site provides the most comprehensive snapshot to date of the UK peer-to-peer lending (P2P) market. Using data from the three biggest P2P platforms in the UK (<a href='http://uk.zopa.com/'>Zopa</a>, <a href='http://www.ratesetter.com/'>RateSetter</a> and <a href='https://www.fundingcircle.com/'>Funding Circle</a>) we highlight the regional geography of lending in the UK.</p>
 
+
 <script>
     $(window).load(function() {
         var driver = iconomical.odi_p2p.p2p();
@@ -375,7 +375,7 @@
                                     
                     <div id="loanHead" class="totalLabel">Lending</div>    
                     
-                    <div id="LoanSum" class="amount cOntrOl">
+                    <div id="LoanSum" class="amount" class="cOntrOl">
                         <div class="sumLabel"></div>
                     </div>
                         <div id="LoanPops" class="cOntrOl">
@@ -478,7 +478,9 @@
         </g>
     </svg>
 </div>
- 
+
+
+
 <p><strong>Here&#8217;s how the visualisation works:</strong></p>
 
 <p>Click on the region on the map (right side) which interests you. The stacked graph on the left then allows you to drill down even further into the region. Move your mouse down the stacked graph to discover more granular detail such as the average and median amounts lent and received. Finally the bar graph at the top gives you a high level overview of loans funded and received by the postcode areas for all regions in the UK.</p>
@@ -486,7 +488,6 @@
 <p>For example, click on the total amount for lending or receiving. The map, a <a href='http://en.wikipedia.org/wiki/Cartogram'>cartogram</a>, shows you how the loans are spread across the UK.</p>
 
 <p>Go on and have a play. Show yourself the money!</p>
-
 
 			</div>
 		</div>
