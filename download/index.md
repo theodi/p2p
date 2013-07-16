@@ -446,5 +446,24 @@ weight: 5
 </ul>
 </div>
 
+<script>
+$(document).ready(function() {
+ 
+    $("a[href^='http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/']").each(function() {
+        var href = $(this).attr("href");
+        var target = $(this).attr("target");
+        var text = $(this).text();
+        $(this).click(function(event) { 
+            event.preventDefault(); 
+            _gaq.push(["_trackEvent", "Data", "Downloaded", "", href, false]); 
+            setTimeout(function() { 
+                window.open(href,(!target?"_self":target)); 
+            },300);
+        });
+    });
+ 
+});
+</script>
+
 </div>
 
