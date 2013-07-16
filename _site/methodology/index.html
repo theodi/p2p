@@ -10,9 +10,24 @@
 <title>show me the money | Methodology</title>
 <link href="http://assets.theodi.org/css/odi-bootstrap-green.css" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet">
-<link rel="shortcut icon" href="/img/odifavicon32.ico">
+<link rel="shortcut icon" href="http://smtm.labs.theodi.org/img/odifavicon32.ico">
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"> </script>
 <script src="http://assets.theodi.org/js/bootstrap-tab.js"> </script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34573394-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </head>
 <body>
@@ -22,10 +37,10 @@
 			<div class='navbar-inner'>
 				<h1><a href="/">show me the money</a></h1>
 				<span class="label" style="top: -10px; position: absolute; left: 310px;">
-					ALPHA
+					BETA
 				</span>
 				<a class='brand' href='/'>
-					<img alt="Logo" src="/img/logo.png" />
+					<img alt="Logo" src="http://smtm.labs.theodi.org/img/logo.png" />
 				</a>
 			</div>
 		</div>
@@ -35,7 +50,7 @@
 			<div class='navbar-inner'>
 				<ul class='nav pull-right'>
 					<li>
-						<a href="/">Home</a>
+						<a href="http://smtm.labs.theodi.org/">Home</a>
 						
 					</li>
 					
@@ -60,7 +75,7 @@
 						
 							
 							<li>
-								<a href="/summary/">Summary</a>
+								<a href="http://smtm.labs.theodi.org/summary/">Summary</a>
 								
 								
 							</li>
@@ -72,7 +87,7 @@
 						
 							
 							<li>
-								<a href="/background/">Background</a>
+								<a href="http://smtm.labs.theodi.org/background/">Background</a>
 								
 								
 							</li>
@@ -88,34 +103,6 @@
 						
 							
 						
-							
-						
-							
-						
-							
-						
-					
-						
-							
-						
-							
-						
-							
-						
-							
-						
-							
-						
-							
-						
-							
-						
-							
-							<li>
-								<a href="/results/">Results</a>
-								
-								
-							</li>
 							
 						
 							
@@ -135,8 +122,36 @@
 							
 						
 							
+						
+							
+						
+							
 							<li>
-								<a href="/methodology/">Methodology</a>
+								<a href="http://smtm.labs.theodi.org/results/">Results</a>
+								
+								
+							</li>
+							
+						
+							
+						
+							
+						
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+							<li>
+								<a href="http://smtm.labs.theodi.org/methodology/">Methodology</a>
 								
 								
 									<div class="arrow-down"></div>
@@ -162,7 +177,7 @@
 						
 							
 							<li>
-								<a href="/download/">Get the data</a>
+								<a href="http://smtm.labs.theodi.org/download/">Get the data</a>
 								
 								
 							</li>
@@ -310,7 +325,7 @@
 
 <h2 id='data'>Data</h2>
 
-<p>We received the data in its raw format (the loan book) from each of the three P2P lenders. All R code is available on <a href='https://github.com/theodi'>GitHub</a>. As a prerequisite for merging we harmonised the data, for example, by changing the unit for interest rates (percentage points instead of units).</p>
+<p>We received the data in its raw format (the loan book) from each of the three P2P lenders. All R code is available on <a href='https://github.com/theodi/R-projects/tree/master/peer-to-peer'>GitHub</a>. As a prerequisite for merging we harmonised the data, for example, by changing the unit for interest rates (percentage points instead of units).</p>
 
 <p>Further, we had to exclude a total of 20,916 observations, that is loan parts. Given the large amount of loan parts this represents only 0.15% of the sample. Most of them were omitted due to missing postcodes. In fact, some of the P2P lenders do not validate UK postcodes, which meant we also excluded some foreign postcodes. We also excluded postcodes of the Isle of Man (IM), the British Forces (BF), Guernsey (GY) and Jersey (JE) as these areas are not part of the United Kingdom.</p>
 
@@ -322,7 +337,7 @@
 
 <p>The weights are derived in a standard fashion: taking the inverse of the number of loan parts per loan and adjusting them to a mean of 1. The weights are well-behaved with a skewed distribution towards small weights because of loans that are highly syndicated.</p>
 
-<h2 id='id2'><span id='statistics'>The mean and median in statistics</span></h2>
+<h2 id='id2'><span id='median'>The mean and median in statistics</span></h2>
 
 <p>You may have heard the old <em>bon mot</em>: “Bill Gates walks into a bar. On average everyone is a millionaire.” In fact, this would even work with a football stadium. (Do the math: his wealth is reported at $72.7 billion for 2013.)</p>
 
@@ -339,24 +354,24 @@
 
 <footer id='footer'>
 	<div class='container'>
-		<div class='span8 footer-content'>
+		<div class='span6 footer-content'>
 			<h1><a href='http://www.theodi.org'>Open Data Institute</a></h1>
 			<p> <a href='http://www.openstreetmap.org/?lat=51.522205&amp;lon=-0.08176500000001852&amp;zoom=16&amp;layers=T&amp;mlat=51.52210&amp;mlon=-0.08343'>Open Data Institute</a><span>, 65 Clifton Street, London EC2A 4JE</span></p>
 			<p><a href='mailto:info@theodi.org'>info@theodi.org</a> · Company <a href='http://opencorporates.com/companies/gb/08030289'>08030289</a>	· <span>VAT</span> <span>143 7796 80</span></p>
-			<p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img alt="Creative Commons Licence" height="15" src="/img/logo_cc_80x15.png" width="80" /></a></p>
+			<p class='license'><a href='http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB' rel='license'><img alt="Creative Commons Licence" height="15" src="http://smtm.labs.theodi.org/img/logo_cc_80x15.png" width="80" /></a></p>
 		</div>
-		<div class='span4 footer-nav'>
+		<div class='span6 footer-nav'>
 			<nav>
 				<ul class='pull-right'>
 					
 						
-						<li><a href="/acknowledgments/">Acknowledgments</a></li>
+						<li><a href="http://smtm.labs.theodi.org/acknowledgments/">Acknowledgments</a></li>
 						
 					
 						
 					
 						
-						<li><a href="/contact/">Get in touch</a></li>
+						<li><a href="http://smtm.labs.theodi.org/contact/">Get in touch</a></li>
 						
 					
 						
@@ -366,13 +381,13 @@
 						
 					
 						
-						<li><a href="/privacy/">Privacy</a></li>
+						<li><a href="http://smtm.labs.theodi.org/privacy/">Privacy</a></li>
 						
 					
 						
 					
 						
-						<li><a href="/rights/">Rights statement</a></li>
+						<li><a href="http://smtm.labs.theodi.org/rights/">Rights statement</a></li>
 						
 					
 						

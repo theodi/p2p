@@ -17,7 +17,6 @@
 <link rel="stylesheet" href="/visualisation/p2p.css" type="text/css">
 
 <script src="http://d3js.org/d3.v3.js"></script>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="/visualisation/queue.js"></script>
 <script src="/visualisation/underscore-min.js"></script>
 
@@ -25,6 +24,21 @@
 <script src="/visualisation/cartogram.js"></script>
 <script src="/visualisation/odi_compressed.js"></script>
 {% endif %}
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34573394-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </head>
 <body>
 <nav>
