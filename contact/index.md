@@ -5,7 +5,7 @@ link: /contact/
 menu: bottom
 ---
 
-If you have any questions about this data, or how it was gathered, please [raise an issue on GitHub](http://github.com/theodi/p2p/issues) or email us at [tech@theodi.org](mailto:tech@theodi.org).
+If you have any questions about this data, or how it was gathered, please [raise an issue on GitHub](http://github.com/theodi/p2p/issues) or email us at [ShowMeTheMoney@theODI.org](mailto:showmethemoney@theodi.org).
 
 If you would like to see this project developed further in this direction please leave your email below.
 
